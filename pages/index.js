@@ -25,13 +25,13 @@ export default function Home() {
         
         <div className={styles.social_container}>
           <div>
-            <a href="https://www.instagram.com/gamestoficial/" target="_blank">
+            <a href="https://www.instagram.com/gamestoficial/" target="_blank" rel="noreferrer">
               <Image src="/Instagram.png" width={50} height={50}/>
             </a>
           </div>
           
           <div>
-            <a href='https://www.linkedin.com/company/gamestoficial' target="_blank">
+            <a href='https://www.linkedin.com/company/gamestoficial' target="_blank" rel="noreferrer">
               <Image src="/LinkedIN.png" width={50} height={50}/>
             </a>
           </div>
