@@ -1,0 +1,53 @@
+.cover {
+    height: 100vh;
+    width: 100vw;
+    padding: 5% 10px 0 20px;
+    position: relative;
+}
+
+.wrap {
+    overflow: hidden;
+    position: relative;
+    background-color: #010F3D;
+    margin-top: 50px;
+}
+
+.bg {
+    opacity: 0.05;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.fakeBtn {
+    background-color: #610770;
+    width: 320px;
+    height: 80px;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 2em;
+}
+
+.horizontalSplit {
+    display: flex;
+}
+
+.secondColumn{
+    text-align: center;
+}
+
+.controles {
+    max-height: 10px;
+    width: 100px;
+}
+
+.verticalAlign {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    margin-bottom: 20px;
+}
