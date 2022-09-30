@@ -1,0 +1,32 @@
+.sectionArea {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #D8C1DB;
+    color: #212427;
+    padding: 3vh 10px 0 4vw;
+    position: relative;
+}
+
+.textArea {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+}
+
+.cardsArea {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    padding: 0 1vw 1vw 1vw;
+}
+
+.card {
+    width: 30%;
+    height: 100%;
+    background-color: #F0F0F0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;;
+}
