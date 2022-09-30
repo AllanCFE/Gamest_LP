@@ -23,8 +23,8 @@
 
 .fakeBtn {
     background-color: #610770;
-    width: 320px;
-    height: 70px;
+    width: 25vw;
+    height: 11vh;
     padding: 1%;
     border-radius: 15px;
     font-size: 2em;
@@ -48,9 +48,8 @@
 }
 
 .bulletText {
-    font-size: 3.8vh;
+    font-size: 2vw;
     padding-left: 1vw;
-    padding-bottom: 1vh;
 }
 
 .bullet {

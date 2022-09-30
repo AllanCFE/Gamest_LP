@@ -83,17 +83,21 @@ export default () => {
                         <div className={[styles.horizontalSplit, styles.line].join(" ")} style={{width: "180px", justifyContent:"space-between"}}>
                             {/** Instagram */}
                             <div>
-                                <a>
+                                <a href='https://www.instagram.com/gamestoficial/' target="_blank" rel="noreferrer">
                                     <Image src='/Instagram.png' width={40} height={40}/>
                                 </a>
                             </div>
                             {/** LinkedIn */}
                             <div>
-                                <Image src='/LinkedIn.png' width={40} height={40}/>
+                                <a href="https://www.linkedin.com/company/gamestoficial/" target="_blank" rel="noreferrer">
+                                    <Image src='/LinkedIn.png' width={40} height={40}/>
+                                </a>
                             </div>
                             {/** Zap */}
                             <div>
-                                <Image src='/WhatsApp.png' width={40} height={40}/>
+                                <a>
+                                    <Image src='/WhatsApp.png' width={40} height={40}/>
+                                </a>
                             </div>
                         </div>
                         

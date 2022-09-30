@@ -2,9 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, Questrial, RudaBlack, MontserratArabic, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  overflow-x:hidden
+  overflow-x:hidden;
+  font-size: 1.2vw;
 }
 
 a {
@@ -29,8 +30,25 @@ a {
 h1 {
   font-size: 5vw;
   margin: 0;
+  font-family: MontserratArabic;
 }
 
 h2 {
   font-size: 2.5vw;
+  font-family: RudaBlack;
+}
+
+@font-face {
+  font-family: "MontserratArabic";
+  src: url("/Fonts/montserrat-arabic_semibold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "RudaBlack";
+  src: url("/Fonts/ruda-black-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Questrial";
+  src: url("/Fonts/questrial-regular-webfont.woff") format("woff");
 }
