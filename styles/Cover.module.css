@@ -1,15 +1,16 @@
 .cover {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
-    padding: 3vh 10px 0 4vw;
+    padding: 8vh 10px 0 4vw;
     position: relative;
+    color: #F0F0F0;
 }
 
 .wrap {
     overflow: hidden;
     position: relative;
     background-color: #010F3D;
-    margin-top: 50px;
+    margin-top: 10vh;
 }
 
 .bg {
