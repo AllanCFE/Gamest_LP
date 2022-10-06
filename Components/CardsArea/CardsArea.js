@@ -13,7 +13,7 @@ export default () => {
                     </div>
                     {/** Subtítulo */}
                     <div>
-                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <h3>Lorem ipsum dolor sit amet</h3>
                     </div>
                 </div>
 
@@ -26,15 +26,38 @@ export default () => {
             <div className={[styles.cardsArea].join(" ")}>
                 {/** Card 1 */}
                 <div className={[styles.card].join(" ")}>
-                    
+                    <div>
+                        <div className={[styles.cardTitle].join(" ")}>5</div>
+                        <div className={[styles.cardSubTitle].join(" ")}>PONTOS</div>
+                    </div>
+                    <div className={[styles.cardContent].join(" ")}>
+                        Proin suscipit vel odio eget feugiat.
+                        Etiam lorem mi, fermentum vel quam ornare, sagittis tempus ante.
+                    </div>
                 </div>
 
                 {/** Card 2 */}
                 <div className={[styles.card].join(" ")}>
+                    <div>
+                        <div className={[styles.cardTitle].join(" ")}>5</div>
+                        <div className={[styles.cardSubTitle].join(" ")}>PONTOS</div>
+                    </div>
+                    <div className={[styles.cardContent].join(" ")}>
+                        Proin suscipit vel odio eget feugiat.
+                        Etiam lorem mi, fermentum vel quam ornare, sagittis tempus ante.
+                    </div>
                 </div>
                 
                 {/** Card 3 */}
                 <div className={[styles.card].join(" ")}>
+                    <div>
+                        <div className={[styles.cardTitle].join(" ")}>5</div>
+                        <div className={[styles.cardSubTitle].join(" ")}>PONTOS</div>
+                    </div>
+                    <div className={[styles.cardContent].join(" ")}>
+                        Proin suscipit vel odio eget feugiat.
+                        Etiam lorem mi, fermentum vel quam ornare, sagittis tempus ante.
+                    </div>
                 </div>
             </div>
         </div>

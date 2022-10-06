@@ -39,6 +39,12 @@ h2 {
   font-family: RudaBlack;
 }
 
+h3 {
+  font-size: 2vw;
+  margin: 1vw 0 1vw 0;
+  font-family: RudaBlack;
+}
+
 @font-face {
   font-family: "MontserratArabic";
   src: url("/Fonts/montserrat-arabic_semibold-webfont.woff") format("woff");
