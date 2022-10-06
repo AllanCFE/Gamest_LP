@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../Components/Navbar/Navbar'
 import Cover from '../Components/Cover/Cover'
 import CardsArea from '../Components/CardsArea/CardsArea'
+import ContactForm from '../Components/ContactForm/ContactForm'
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
         <Cover />
 
         <CardsArea />
+
+        <ContactForm />
       </main>
     </div>
   )
