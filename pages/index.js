@@ -22,8 +22,6 @@ export default function Home() {
         <Cover />
 
         <CardsArea />
-
-        <ContactForm />
       </main>
     </div>
   )

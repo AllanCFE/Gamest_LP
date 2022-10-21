@@ -4,7 +4,7 @@ export default () => {
     return (
         <div className={[styles.sectionArea].join(" ")}>
             {/** Coluna 1 - Título e texto */}
-            <div className={[styles.textArea].join(" ")}>
+            <div className={[styles.textArea, styles.marginText].join(" ")}>
                 {/** Cabeçalho */}
                 <div>
                     {/** Título */}
@@ -26,37 +26,44 @@ export default () => {
             <div className={[styles.cardsArea].join(" ")}>
                 {/** Card 1 */}
                 <div className={[styles.card].join(" ")}>
-                    <div>
-                        <div className={[styles.cardTitle].join(" ")}>5</div>
-                        <div className={[styles.cardSubTitle].join(" ")}>PONTOS</div>
+                    <div className={[styles.cardHead].join(" ")}>
+                        <div className={[styles.cardTitle].join(" ")}>
+                            1
+                        </div>
+                        <div className={[styles.cardSubTitle].join(" ")}>
+                            SEMANA
+                        </div>
                     </div>
                     <div className={[styles.cardContent].join(" ")}>
-                        Proin suscipit vel odio eget feugiat.
-                        Etiam lorem mi, fermentum vel quam ornare, sagittis tempus ante.
+                        Garantimos que você terá os melhores profissionais em no máximo 7 dias
                     </div>
                 </div>
 
                 {/** Card 2 */}
                 <div className={[styles.card].join(" ")}>
-                    <div>
-                        <div className={[styles.cardTitle].join(" ")}>5</div>
-                        <div className={[styles.cardSubTitle].join(" ")}>PONTOS</div>
+                    <div className={[styles.cardHead].join(" ")}>
+                        <div className={[styles.cardTitle].join(" ")}>
+                            3
+                        </div>
+                        <div className={[styles.cardSubTitle].join(" ")}>
+                            PROFISSIONAIS
+                        </div>
                     </div>
                     <div className={[styles.cardContent].join(" ")}>
-                        Proin suscipit vel odio eget feugiat.
-                        Etiam lorem mi, fermentum vel quam ornare, sagittis tempus ante.
+                        Ofertamos até 3 profissionais que são compatíveis  
+                        com o perfil da sua vaga
                     </div>
                 </div>
                 
                 {/** Card 3 */}
                 <div className={[styles.card].join(" ")}>
-                    <div>
-                        <div className={[styles.cardTitle].join(" ")}>5</div>
-                        <div className={[styles.cardSubTitle].join(" ")}>PONTOS</div>
+                    <div className={[styles.cardHead].join(" ")}>
+                        <div className={[styles.cardTitle].join(" ")}>90</div>
+                        <div className={[styles.cardSubTitle].join(" ")}>DIAS</div>
                     </div>
                     <div className={[styles.cardContent].join(" ")}>
-                        Proin suscipit vel odio eget feugiat.
-                        Etiam lorem mi, fermentum vel quam ornare, sagittis tempus ante.
+                        Por 90 dias garantimos novos candidatos
+                        caso a vaga não seja concluída
                     </div>
                 </div>
             </div>
