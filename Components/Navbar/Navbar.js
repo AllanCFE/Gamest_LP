@@ -1,5 +1,6 @@
 import styles from '../../styles/Navbar.module.css'
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default() =>{
     return(
@@ -8,9 +9,11 @@ export default() =>{
                 <Image src='/Logo_Gamest.png' width={866} height={179}/>
             </div>
             <div className={styles.nav_right}>
-                <div className={styles.nav_link} onClick={scroll(0,100)}>
-                    Sobre
-                </div>
+                <Link href="#about">
+                    <a className={styles.nav_link}>
+                        Sobre
+                    </a>
+                </Link>
             </div>
         </nav>
     );

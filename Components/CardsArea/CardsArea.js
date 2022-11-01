@@ -4,7 +4,7 @@ export default () => {
     return (
         <div className={[styles.sectionArea].join(" ")}>
             {/** Coluna 1 - Título e texto */}
-            <div className={[styles.textArea, styles.marginText].join(" ")}>
+            <div className={[styles.textArea, styles.marginText].join(" ")} id="about">
                 {/** Cabeçalho */}
                 <div>
                     {/** Subtítulo */}
