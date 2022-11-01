@@ -5,6 +5,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import Cover from '../Components/Cover/Cover'
 import CardsArea from '../Components/CardsArea/CardsArea'
 import ContactForm from '../Components/ContactForm/ContactForm'
+import Footer from '../Components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
         <Cover />
 
         <CardsArea />
+
+        <Footer />
       </main>
     </div>
   )

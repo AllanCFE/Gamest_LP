@@ -16,7 +16,7 @@ export default () => {
                         {/** 1a linha, para o título, contendo 2 colunas */}
                         <div className={[styles.horizontalSplit, styles.line, styles.verticalAlign].join(" ")}>
                             {/** Controle esquerdo */}
-                            <div style={{width: "13%"}}> 
+                            <div style={{width: "13%", minWidth: "32px"}}> 
                                 <Image src='/Controle_L.png' layout="responsive" width={480} height={1024} />
                             </div>
                             {/** Título */}
@@ -31,16 +31,18 @@ export default () => {
                                 <h2>Buscamos de forma personalizada o profissional perfeito para alavancar o projeto do seu game</h2>
                             </div>
                             {/** Controle direito */}
-                            <div style={{width: "15%"}}>
+                            <div style={{width: "15%", minWidth: "30px"}}>
                                 <Image src='/Controle_R.png'  layout="responsive" width={480} height={1024}/>
                             </div>
                         </div>
                         {/** 4a linha, para o call to action */}
                         <div className={styles.line}>
                             {/** Fake button */}
-                            <div className={[styles.fakeBtn, styles.verticalAlign, styles.secondColumn].join(" ")} style={{justifyContent:"center"}} >
-                                Entre em contato
-                            </div>
+                            <a href='https://api.whatsapp.com/send?phone=5565996118041&text=Gostaria%20de%20conversar%20sobre%20o%20servi%C3%A7o%20de%20recrutamento%20da%20Gamest' target="_blank">
+                                <div className={[styles.fakeBtn, styles.verticalAlign, styles.secondColumn].join(" ")} style={{justifyContent:"center"}} >
+                                    Entre em contato
+                                </div>
+                            </a>
                         </div>
 
                     </div>

@@ -1,0 +1,27 @@
+.sectionArea {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw 0 4vw;
+    background-color: #310438;
+}
+
+.smLogos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 45px;
+    height: auto;
+}
+
+.footerLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    min-width: 250px;
+}

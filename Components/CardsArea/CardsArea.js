@@ -7,19 +7,21 @@ export default () => {
             <div className={[styles.textArea, styles.marginText].join(" ")}>
                 {/** Cabeçalho */}
                 <div>
-                    {/** Título */}
-                    <div>
-                        <h1>Data Section</h1>
-                    </div>
                     {/** Subtítulo */}
                     <div>
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>Buscamos os melhores <i>players</i> para o seu projeto</h3>
                     </div>
                 </div>
 
                 {/** Texto */}
                 <div style={{textAlign: "justify"}}>
-                Curabitur sit amet venenatis augue, vitae semper enim. Quisque purus risus, iaculis eu iaculis in, venenatis suscipit elit. Suspendisse rhoncus diam ac quam iaculis tempor. Phasellus id lectus ac tellus tempus posuere suscipit ut mauris.
+                <p>
+                    Com a Gamest você vai <b>reduzir os custos</b> na busca pelo candidato ideal,
+                    <b>otimizar o tempo</b> da sua equipe, permitindo que eles foquem no que <i>realmente é importante</i>.
+                </p>
+                <p>
+                    E o melhor: tendo a certeza que uma empresa <i>especializada</i> em <b>game recruiting</b> está por trás de tudo isso.
+                </p>
                 </div>
             </div>
             {/** Coluna 2 - Cards */}

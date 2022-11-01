@@ -1,5 +1,5 @@
 .cover {
-    height: 90vh;
+    height: max(45vw,50vh);
     width: 100vw;
     padding: 8vh 10px 0 4vw;
     position: relative;
@@ -18,8 +18,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: auto;
+    height: 100vh;
 }
 
 .fakeBtn {
@@ -28,7 +27,7 @@
     height: 11vh;
     padding: 1%;
     border-radius: 15px;
-    font-size: 2em;
+    font-size: max(2.6vw,18px);
 }
 
 .horizontalSplit {
