@@ -17,7 +17,7 @@ export default () => {
                 <div style={{textAlign: "justify"}}>
                 <p>
                     Com a Gamest você vai <b>reduzir os custos</b> na busca pelo candidato ideal,
-                    <b>otimizar o tempo</b> da sua equipe, permitindo que eles foquem no que <i>realmente é importante</i>.
+                    <b> otimizar o tempo</b> da sua equipe, permitindo que eles foquem no que <i>realmente é importante</i>.
                 </p>
                 <p>
                     E o melhor: tendo a certeza que uma empresa <i>especializada</i> em <b>game recruiting</b> está por trás de tudo isso.
