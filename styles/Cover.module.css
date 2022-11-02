@@ -1,0 +1,57 @@
+.cover {
+    height: max(45vw,50vh);
+    width: 100vw;
+    padding: 8vh 10px 0 4vw;
+    position: relative;
+    color: #F0F0F0;
+}
+
+.wrap {
+    overflow: hidden;
+    position: relative;
+    background-color: #010F3D;
+    margin-top: 10vh;
+}
+
+.bg {
+    opacity: 0.05;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+}
+
+.fakeBtn {
+    background-color: #610770;
+    width: 25vw;
+    height: 11vh;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: max(2.6vw,18px);
+}
+
+.horizontalSplit {
+    display: flex;
+}
+
+.secondColumn{
+    text-align: center;
+}
+
+.verticalAlign {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    margin-bottom: 2vh;
+}
+
+.bulletText {
+    font-size: 2vw;
+    padding-left: 1vw;
+}
+
+.bullet {
+    padding-left: 1vw;
+}
