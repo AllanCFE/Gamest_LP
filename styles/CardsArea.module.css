@@ -58,3 +58,20 @@
 .cardContent {
     font-size: 1.5vw;
 }
+
+@media (max-width: 600px) {
+    .sectionArea {
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .textArea {
+        width: 100vw;
+        padding-right: 10vw;
+    }
+
+    .cardsArea {
+        width: 100vw;
+        padding-right: 10vw;
+    }
+}
