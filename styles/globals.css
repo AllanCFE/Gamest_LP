@@ -50,6 +50,17 @@ p{
   line-height: max(2vw,15px);
 }
 
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
 @font-face {
   font-family: "MontserratArabic";
   src: url("/Fonts/montserrat-arabic_semibold-webfont.woff") format("woff");

@@ -25,3 +25,34 @@
     width: 15%;
     min-width: 250px;
 }
+
+.footerRight{
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .footerLeft {
+        display: flex;
+        justify-content: space-between;
+        width: 15%;
+        min-width: 150px;
+    }
+
+    .smLogos {
+        width: 30px;
+    }
+
+    .footerRight{
+        font-size: 2vw;
+    }
+
+    .sectionArea {
+        height: 6vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 4vw 0 4vw;
+        background-color: #310438;
+    }
+    
+}

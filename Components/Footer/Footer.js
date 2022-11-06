@@ -26,7 +26,7 @@ export default () => {
                     </a>
                 </div>
             </div>
-            <div>
+            <div className={styles.footerRight}>
                 &copy; 2022 Gamest - Todos os direitos reservados
             </div>
         </div>

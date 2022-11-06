@@ -2,9 +2,6 @@ import styles from '../../styles/Cover.module.css'
 import Image from 'next/image';
 
 export default () => {
-
-    let bulletSize = 50
-
     return (
         <div className={styles.wrap}>
             <img className={styles.bg} src='/Back_Cover.png' alt=""/>
@@ -12,7 +9,7 @@ export default () => {
                 {/** Div com as duas colunas, com altura "100" vh */}
                 <div className={[styles.horizontalSplit].join(" ")}>
                     {/** Primeira coluna, 100vh */}
-                    <div style={{width:'70%'}}>
+                    <div className={[styles.firstColumn].join(" ")}>
                         {/** 1a linha, para o título, contendo 2 colunas */}
                         <div className={[styles.horizontalSplit, styles.line, styles.verticalAlign].join(" ")}>
                             {/** Controle esquerdo */}
@@ -27,7 +24,7 @@ export default () => {
                         {/** 2a linha, para o subtítulo, contendo 2 colunas */}
                         <div className={[styles.horizontalSplit, styles.line, styles.verticalAlign].join(" ")}>
                             {/** Subtítulo */}
-                            <div style={{paddingRight:"2vw", textAlign: "right", marginLeft: "10vw"}}>
+                            <div className={styles.subtitle}>
                                 <h2>Buscamos de forma personalizada o profissional perfeito para alavancar o projeto do seu game</h2>
                             </div>
                             {/** Controle direito */}
@@ -48,7 +45,7 @@ export default () => {
                     </div>
 
                     {/** Segunda coluna com apenas o tamanho da figura */}
-                    <div className={[styles.secondColumn].join(" ")} style={{width:'30%', paddingTop: "2vh", marginLeft: "1vw"}}>
+                    <div className={[styles.secondColumn].join(" ")}>
                         <Image src='/Right_Cover.png' width={250} height={250}/>
                     </div>
                 </div>

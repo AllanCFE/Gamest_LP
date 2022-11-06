@@ -121,6 +121,16 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .main {
+    justify-content:initial;
+    align-items:initial;
+  }
+
+  .container{
+    width: 100vw;
+    padding: 0;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

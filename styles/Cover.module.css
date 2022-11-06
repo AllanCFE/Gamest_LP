@@ -1,14 +1,13 @@
 .cover {
-    height: max(45vw,50vh);
+    height: 100%;
     width: 100vw;
     padding: 8vh 10px 0 4vw;
-    position: relative;
     color: #F0F0F0;
 }
 
 .wrap {
+    height: max(45vw,50vh);
     overflow: hidden;
-    position: relative;
     background-color: #010F3D;
     margin-top: 10vh;
 }
@@ -36,6 +35,13 @@
 
 .secondColumn{
     text-align: center;
+    width: 30%;
+    padding-top: 2vh;
+    margin-left: 1vw;
+}
+
+.firstColumn {
+    width: 70%;
 }
 
 .verticalAlign {
@@ -47,11 +53,47 @@
     margin-bottom: 2vh;
 }
 
-.bulletText {
-    font-size: 2vw;
-    padding-left: 1vw;
+.subtitle {
+    padding-right: 2vw;
+    text-align: right;
+    margin-left: 10vw;
 }
 
-.bullet {
-    padding-left: 1vw;
+
+@media (max-width: 600px) {
+    .wrap {
+        margin: 0px;
+        overflow-x: hidden; 
+        height: 45vh;
+        overflow: hidden;
+    }
+    .cover {
+        margin-top: 0;
+        overflow: hidden;
+    }
+
+    .firstColumn {
+        width: 100%;
+    }
+
+    .secondColumn{
+        width: 0;
+    }
+
+    .subtitle {
+        margin-left: 0;
+    }
+
+    .bg {
+        height: 50vh;
+        left: auto;
+        right: 0;
+        overflow: hidden;
+    }
+
+    .fakeBtn {
+        width: 200px;
+        height: 50px;
+        padding: 0;
+    }
 }
