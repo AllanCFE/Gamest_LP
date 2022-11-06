@@ -43,4 +43,10 @@
     min-width: 100px;
     min-height: 20.65px;
   }
+
+  .nav_link  {
+    width: 0;
+    margin-left: 0;
+    font-size: 0;
+  }
 }
