@@ -74,4 +74,17 @@
         width: 100vw;
         padding-right: 10vw;
     }
+
+    .card{
+        height: 20vh;
+    }
+
+    .cardContent {
+        font-size: 0.7em;
+    }
+
+    .cardTitle {
+        font-size: 4.7vw;
+        margin-bottom: 1vh;
+    }
 }
