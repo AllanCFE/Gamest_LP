@@ -2,16 +2,16 @@ import '../styles/globals.css'
 import { initializeApp, getApps } from 'firebase/app';
 
 
+const firebaseConfig = {
+  apiKey: "AIzaSyCZumn-Ii27Svxr7IO_sq6LpC0UjXfXojA",
+  authDomain: "gamest-br.firebaseapp.com",
+  projectId: "gamest-br",
+  storageBucket: "gamest-br.appspot.com",
+  messagingSenderId: "121601058091",
+  appId: "1:121601058091:web:47442b26c162b7f7c2916e",
+  measurementId: "G-L4DVNT9XFT"
+};
 
-const firebaseConfig = initializeApp({
-  apiKey: "AIzaSyBBQZFxYcJXbyqHURsR_9jMRrPCmfGfMwg",
-  authDomain: "gamest-274e0.firebaseapp.com",
-  projectId: "gamest-274e0",
-  storageBucket: "gamest-274e0.appspot.com",
-  messagingSenderId: "60293567425",
-  appId: "1:60293567425:web:60a3b4854867c1b89a9540",
-  measurementId: "G-6NKTGLHLYM"
-})
 
 // Initialize Firebase
 var app;
