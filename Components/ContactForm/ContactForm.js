@@ -1,54 +1,95 @@
 import styles from '../../styles/ContactForm.module.css'
+import Image from 'next/image'
 
 export default () => {
+
+    // Handles the submit event on form submit.
+    const handleSubmit = async (event) => {
+        // Stop the form from submitting and refreshing the page.
+        event.preventDefault()
+
+        // Get data from the form.
+        const data = {
+            name:   event.target.name.value,
+            email:  event.target.email.value,
+            dev:    event.target.dev.value,
+            msg:    event.target.msg.value,
+        }
+
+        // Send the data to the server in JSON format.
+        const JSONdata = JSON.stringify(data)
+        const endpoint = '/api/form'
+
+        // Form the request for sending data to the server.
+        const options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSONdata,
+        }
+
+        // Send the form data to our forms API on Vercel and get a response.
+        const response = await fetch(endpoint, options)
+
+        // Get the response data from server as JSON.
+        // If server returns the name submitted, that means the form works.
+        const result = await response.json()
+        alert(`Is this your full name: ${result.data}`)
+    }
+
     return (
         <div className={[styles.contactArea].join(" ")}>
             {/** Title */}
-            <div>
+            <div className={styles.cardTitle}>
                     <h1>Entre em Contato</h1>
+
+                    <div className={styles.footerLeft}>
+                        <div className={styles.smLogos}>
+                            <a href='https://www.instagram.com/gamestoficial/' target="_blank" className={styles.centerH}>
+                                <Image src='/Instagram.png' width={100} height={100}/>
+                            </a>
+                        </div>
+                        <div className={styles.smLogos}>
+                            <a href='https://www.linkedin.com/company/gamestoficial/' target="_blank" className={styles.centerH}>
+                                <Image src='/LinkedIn.png' width={100} height={100}/>
+                            </a>
+                        </div>
+                        <div className={styles.smLogos}>
+                            <a href='mailto:joaovictorcastro@gamest.com.br' target="_blank" className={styles.centerH}>
+                                <Image src='/Mail.png' width={100} height={100}/>
+                            </a>
+                        </div>
+                        <div className={styles.smLogos}>
+                            <a href='https://api.whatsapp.com/send?phone=5565996118041&text=Gostaria%20de%20conversar%20sobre%20o%20servi%C3%A7o%20de%20recrutamento%20da%20Gamest' target="_blank" className={styles.centerH}>
+                                <Image src='/WhatsApp.png' width={100} height={100}/>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+
+            <div className={styles.centerV}>
+                <div className={styles.verticalBar}>
+                    
+                </div>
             </div>
 
             <div className={[styles.secondLine].join(" ")}>
-                {/** Left side */}
-                <div className={[styles.columnLine].join(" ")}>
-                    {/** Instagram */}
-                    <div className={[styles.socialMedia].join(" ")}>
-                        <div>
-                            Imagem
-                        </div>
-                        <div>
-                            @gamestoficial
-                        </div>
-                    </div>
+                <form onSubmit={handleSubmit} className={styles.formHTML}>
+                    <label htmlFor="name">Nome</label>
+                    <input type="text" id="name" name="name" required className={styles.inputForm}/>
 
-                    {/** LinkedIn */}
-                    <div className={[styles.socialMedia].join(" ")}>
-                        <div>
-                            Imagem
-                        </div>
-                        <div>
-                            /gamestoficial
-                        </div>
-                    </div>
+                    <label htmlFor="email">E-Mail</label>
+                    <input type="email" id="email" name="email" required className={styles.inputForm}/>
 
-                    {/** E-Mail */}
-                    <div className={[styles.socialMedia].join(" ")}>
-                        <div>
-                            Imagem
-                        </div>
-                        <div>
-                            gamest@gamest.com.br
-                        </div>
-                    </div>
-                </div>
+                    <label htmlFor='dev'>Desenvolvedora</label>
+                    <input type="text" id="dev" name="dev" className={styles.inputForm} />
 
-                    {/** Center Bar */}
-                <div className={[styles.verticalBar].join(" ")}></div>
+                    <label htmlFor='msg'>Mensagem</label>
+                    <textarea type="text" id="msg" name="msg" className={[styles.inputForm, styles.resize].join(" ")} required></textarea>
 
-                    {/** Right side */}
-                <div className={[styles.columnLine].join(" ")}>
-                    Roberto Justus
-                </div>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
         </div>
     )
