@@ -5,6 +5,8 @@
     padding: 2vh 4vw 3vh 4vw;
     color: #212427;
     margin-top: 10vh;
+    padding-bottom: 10vh;
+    overflow: auto;
 }
 
 .cardTitle {
@@ -75,4 +77,17 @@
 .resize {
     resize: vertical;
     height: 100px;
+}
+
+@media (max-width: 600px) {
+    .footerLeft {
+        display: flex;
+        justify-content: space-between;
+        width: 15%;
+        min-width: 150px;
+    }
+
+    .smLogos {
+        width: 30px;
+    }
 }
