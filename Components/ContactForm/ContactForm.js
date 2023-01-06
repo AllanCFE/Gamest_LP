@@ -9,33 +9,34 @@ export default () => {
         event.preventDefault()
 
         // Get data from the form.
-        const data = {
+        const data = new URLSearchParams({
             name:   event.target.name.value,
             email:  event.target.email.value,
             dev:    event.target.dev.value,
             msg:    event.target.msg.value,
-        }
+        })
 
         // Send the data to the server in JSON format.
-        const JSONdata = JSON.stringify(data)
-        const endpoint = '/api/form'
+        const endpoint = 'https://us-central1-gamest-br.cloudfunctions.net/sendMailOverHTTP'
 
         // Form the request for sending data to the server.
         const options = {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
+                'Content-Type': 'application/x-www-form-urlencoded',
             },
-            body: JSONdata,
+            body: data,
         }
+
 
         // Send the form data to our forms API on Vercel and get a response.
         const response = await fetch(endpoint, options)
 
         // Get the response data from server as JSON.
         // If server returns the name submitted, that means the form works.
-        const result = await response.json()
-        alert(`Is this your full name: ${result.data}`)
+        const result = await response
+        if (result.status == 200) alert("Mensagem enviada!");
+        else alert("Erro ao enviar a mensagem.")
     }
 
     return (

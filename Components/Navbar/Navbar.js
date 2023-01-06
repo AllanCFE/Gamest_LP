@@ -6,12 +6,14 @@ export default() =>{
     return(
         <nav className={styles.navbar}>
             <div className={styles.nav_left}>
-                <Image src='/Logo_Gamest.png' width={866} height={179}/>
+                <Link href='/'>
+                    <a><Image src='/Logo_Gamest.png' width={866} height={179}/></a>                    
+                </Link>
             </div>
             <div className={styles.nav_right}>
-                <Link href="#about">
+                <Link href="contact">
                     <a className={styles.nav_link}>
-                        Sobre
+                        Contato
                     </a>
                 </Link>
             </div>
