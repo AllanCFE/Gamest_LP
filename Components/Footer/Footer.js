@@ -1,7 +1,14 @@
 import styles from '../../styles/Footer.module.css'
 import Image from 'next/image';
+import { useRouter } from 'next/router';
+import texts from '../../pages/assets/texts.json'
 
 export default () => {
+
+    const { locale } = useRouter();
+
+    const txts = texts.front_page.filter(t => t.locale == locale)
+
     return(
         <div className={[styles.sectionArea].join(" ")}>
             <div className={styles.footerLeft}>
@@ -27,7 +34,7 @@ export default () => {
                 </div>
             </div>
             <div className={styles.footerRight}>
-                &copy; 2022 Gamest - Todos os direitos reservados
+                {txts[0].footbar.rights}
             </div>
         </div>
     )

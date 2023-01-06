@@ -1,6 +1,13 @@
 import styles from '../../styles/CardsArea.module.css'
+import { useRouter } from 'next/router';
+import texts from '../../pages/assets/texts.json'
 
 export default () => {
+
+    const { locale } = useRouter();
+
+    const txts = texts.front_page.filter(t => t.locale == locale)
+
     return (
         <div className={[styles.sectionArea].join(" ")}>
             {/** Coluna 1 - Título e texto */}
@@ -9,18 +16,17 @@ export default () => {
                 <div>
                     {/** Subtítulo */}
                     <div>
-                        <h3>Buscamos os melhores <i>players</i> para o seu projeto</h3>
+                        <h3>{txts[0].cards.title}</h3>
                     </div>
                 </div>
 
                 {/** Texto */}
                 <div style={{textAlign: "justify"}}>
                 <p>
-                    Com a Gamest você vai <b>reduzir os custos</b> na busca pelo candidato ideal,
-                    <b> otimizar o tempo</b> da sua equipe, permitindo que eles foquem no que <i>realmente é importante</i>.
+                    {txts[0].cards.p1}
                 </p>
                 <p>
-                    E o melhor: tendo a certeza que uma empresa <i>especializada</i> em <b>game recruiting</b> está por trás de tudo isso.
+                {txts[0].cards.p2}
                 </p>
                 </div>
             </div>
@@ -30,14 +36,14 @@ export default () => {
                 <div className={[styles.card].join(" ")}>
                     <div className={[styles.cardHead].join(" ")}>
                         <div className={[styles.cardTitle].join(" ")}>
-                            1
+                            {txts[0].cards[0].number}
                         </div>
                         <div className={[styles.cardSubTitle].join(" ")}>
-                            SEMANA
+                            {txts[0].cards[0].subtitle}
                         </div>
                     </div>
                     <div className={[styles.cardContent].join(" ")}>
-                        Garantimos que você terá os melhores profissionais em no máximo 7 dias
+                        {txts[0].cards[0].text}
                     </div>
                 </div>
 
@@ -45,27 +51,25 @@ export default () => {
                 <div className={[styles.card].join(" ")}>
                     <div className={[styles.cardHead].join(" ")}>
                         <div className={[styles.cardTitle].join(" ")}>
-                            3
+                            {txts[0].cards[1].number}
                         </div>
                         <div className={[styles.cardSubTitle].join(" ")}>
-                            PROFISSIONAIS
+                            {txts[0].cards[1].subtitle}
                         </div>
                     </div>
                     <div className={[styles.cardContent].join(" ")}>
-                        Ofertamos até 3 profissionais que são compatíveis  
-                        com o perfil da sua vaga
+                        {txts[0].cards[0].text}
                     </div>
                 </div>
                 
                 {/** Card 3 */}
                 <div className={[styles.card].join(" ")}>
                     <div className={[styles.cardHead].join(" ")}>
-                        <div className={[styles.cardTitle].join(" ")}>90</div>
-                        <div className={[styles.cardSubTitle].join(" ")}>DIAS</div>
+                        <div className={[styles.cardTitle].join(" ")}>{txts[0].cards[2].number}</div>
+                        <div className={[styles.cardSubTitle].join(" ")}>{txts[0].cards[2].subtitle}</div>
                     </div>
                     <div className={[styles.cardContent].join(" ")}>
-                        Por 90 dias garantimos novos candidatos
-                        caso a vaga não seja concluída
+                        {txts[0].cards[2].text}
                     </div>
                 </div>
             </div>

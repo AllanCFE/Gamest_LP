@@ -1,7 +1,13 @@
 import styles from '../../styles/ContactForm.module.css'
 import Image from 'next/image'
+import { useRouter } from 'next/router';
+import texts from '../../pages/assets/texts.json'
 
 export default () => {
+
+    const { locale } = useRouter();
+
+    const txts = texts.front_page.filter(t => t.locale == locale)
 
     // Handles the submit event on form submit.
     const handleSubmit = async (event) => {
@@ -43,7 +49,7 @@ export default () => {
         <div className={[styles.contactArea].join(" ")}>
             {/** Title */}
             <div className={styles.cardTitle}>
-                    <h1>Entre em Contato</h1>
+                    <h1>{txts[0].contactForm.title}</h1>
 
                     <div className={styles.footerLeft}>
                         <div className={styles.smLogos}>
@@ -77,19 +83,19 @@ export default () => {
 
             <div className={[styles.secondLine].join(" ")}>
                 <form onSubmit={handleSubmit} className={styles.formHTML}>
-                    <label htmlFor="name">Nome</label>
+                    <label htmlFor="name"> {txts[0].contactForm.name} </label>
                     <input align="center" type="text" id="name" name="name" required className={styles.inputForm}/>
 
-                    <label htmlFor="email">E-Mail</label>
+                    <label htmlFor="email">{txts[0].contactForm.email}</label>
                     <input type="email" id="email" name="email" required className={styles.inputForm}/>
 
-                    <label htmlFor='dev'>Desenvolvedora</label>
+                    <label htmlFor='dev'>{txts[0].contactForm.dev}</label>
                     <input type="text" id="dev" name="dev" className={styles.inputForm} />
 
-                    <label htmlFor='msg'>Mensagem</label>
+                    <label htmlFor='msg'>{txts[0].contactForm.msg}</label>
                     <textarea type="text" id="msg" name="msg" className={[styles.inputForm, styles.resize].join(" ")} required></textarea>
 
-                    <button type="submit" className={styles.fakeBtn}>Submit</button>
+                    <button type="submit" className={styles.fakeBtn}>{txts[0].contactForm.submit}</button>
                 </form>
             </div>
         </div>
