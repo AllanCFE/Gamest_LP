@@ -78,7 +78,7 @@ export default () => {
             <div className={[styles.secondLine].join(" ")}>
                 <form onSubmit={handleSubmit} className={styles.formHTML}>
                     <label htmlFor="name">Nome</label>
-                    <input type="text" id="name" name="name" required className={styles.inputForm}/>
+                    <input align="center" type="text" id="name" name="name" required className={styles.inputForm}/>
 
                     <label htmlFor="email">E-Mail</label>
                     <input type="email" id="email" name="email" required className={styles.inputForm}/>
@@ -89,7 +89,7 @@ export default () => {
                     <label htmlFor='msg'>Mensagem</label>
                     <textarea type="text" id="msg" name="msg" className={[styles.inputForm, styles.resize].join(" ")} required></textarea>
 
-                    <button type="submit">Submit</button>
+                    <button type="submit" className={styles.fakeBtn}>Submit</button>
                 </form>
             </div>
         </div>
