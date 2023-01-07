@@ -39,7 +39,9 @@
                 "email":"E-Mail",
                 "dev":"Desenvolvedora",
                 "msg":"Mensagem",
-                "submit":"Enviar"
+                "submit":"Enviar",
+                "error":"Erro ao enviar a mensagem. Tente novamente mais tarde.",
+                "ok": "Mensagem enviada!"
             }
         },
         {
@@ -81,7 +83,9 @@
                 "email":"E-Mail",
                 "dev":"Organization",
                 "msg":"Message",
-                "submit":"Submit"
+                "submit":"Submit",
+                "error":"There was an error sending the message. Please try again later.",
+                "ok": "Message sent successfully!"
             }
         }
     ]

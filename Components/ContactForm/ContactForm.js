@@ -41,8 +41,8 @@ export default () => {
         // Get the response data from server as JSON.
         // If server returns the name submitted, that means the form works.
         const result = await response
-        if (result.status == 200) alert("Mensagem enviada!");
-        else alert("Erro ao enviar a mensagem.")
+        if (result.status == 200) alert(txts[0].contactForm.ok);
+        else alert(txts[0].contactForm.error)
     }
 
     return (
