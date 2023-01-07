@@ -1,8 +1,15 @@
 import styles from '../../styles/Navbar.module.css'
+import flags from '../../styles/Flags.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import texts from '../../pages/assets/texts.json'
 
 export default() =>{
+    const { locale, locales, asPath } = useRouter();
+
+    const txts = texts.front_page.filter(t => t.locale == locale)
+
     return(
         <nav className={styles.navbar}>
             <div className={styles.nav_left}>
@@ -11,11 +18,21 @@ export default() =>{
                 </Link>
             </div>
             <div className={styles.nav_right}>
-                <Link href="contact">
-                    <a className={styles.nav_link}>
-                        Contato
-                    </a>
-                </Link>
+                <div>
+                    {locales.map((l, i) => {
+                        return (
+                            
+                                <Link key={i}  href={asPath} locale={l}>
+                                        <a key={i} ><span key={i} className={[l === locale ? styles.selected : '', l == "pt-BR" ? flags.ptBR : flags.enUS, flags.fi ].join(" ")}></span></a>
+                                </Link>
+                        );
+                    })}
+                </div>
+                <div className={styles.navLink}>
+                    <Link href="contact">
+                        {txts[0].navbar.contact}
+                    </Link>
+                </div>
             </div>
         </nav>
     );

@@ -1,0 +1,92 @@
+{
+    "front_page":[
+        {
+            "locale": "pt-BR",
+            "cover": {
+                "title": "Conectamos talentos a indústria de games",
+                "subtitle": "Buscamos de forma personalizada o profissional perfeito para alavancar o projeto do seu game",
+                "btnText": "Entre em contato"
+            },
+            "cards":{
+                "0":{
+                    "number":"1",
+                    "subtitle":"SEMANA",
+                    "text":"Garantimos que você terá os melhores profissionais em no máximo 7 dias"
+                },
+                "1":{
+                    "number":"3",
+                    "subtitle":"PROFISSIONAIS",
+                    "text":"Ofertamos até 3 profissionais que são compatíveis com o perfil da sua vaga"
+                },
+                "2":{
+                    "number":"90",
+                    "subtitle":"DIAS",
+                    "text":"Por 90 dias garantimos novos candidatos caso a vaga não seja concluída"
+                },
+                "title":"Buscamos os melhores players para o seu projeto",
+                "p1": "Com a Gamest você vai reduzir os custos na busca pelo candidato ideal, otimizar o tempo da sua equipe, permitindo que eles foquem no que realmente é importante.",
+                "p2": "E o melhor: tendo a certeza que uma empresa especializada em game recruiting está por trás de tudo isso."
+            },
+            "footbar":{
+                "rights":"© 2022 Gamest - Todos os direitos reservados"
+            },
+            "navbar":{
+                "contact":"Contato"
+            },
+            "contactForm":{
+                "title":"Entre em Contato",
+                "name":"Nome",
+                "email":"E-Mail",
+                "dev":"Desenvolvedora",
+                "msg":"Mensagem",
+                "submit":"Enviar",
+                "error":"Erro ao enviar a mensagem. Tente novamente mais tarde.",
+                "ok": "Mensagem enviada!"
+            }
+        },
+        {
+            "locale": "en-US",
+            "cover":{
+                "title": "Connecting talents to the games industry",
+                "subtitle": "We find the perfect professional to leverage your game project",
+                "btnText": "Contact us"
+            },
+            "cards":{
+                "0":{
+                    "number":"1",
+                    "subtitle":"WEEK",
+                    "text":"We guarantee that you will have the best professionals in a maximum of 7 days"
+                },
+                "1":{
+                    "number":"3",
+                    "subtitle":"PROFESSIONALS",
+                    "text":"We offer up to 3 professionals who are compatible with your vacancy profile"
+                },
+                "2":{
+                    "number":"90",
+                    "subtitle":"DAYS",
+                    "text":"For 90 days we guarantee new candidates if the vacancy is not completed"
+                },
+                "title":"We seek for the best players for your project",
+                "p1": "With Gamest you will reduce costs in the search for the ideal candidate, optimize your team's time, allowing them to focus on what is really important.",
+                "p2": "And the best: making sure that a company specialized in game recruiting is behind it all."
+            },
+            "footbar":{
+                "rights":"© 2022 Gamest - All rights reserved"
+            },
+            "navbar":{
+                "contact":"Contact"
+            },
+            "contactForm":{
+                "title":"Contact Us",
+                "name":"Name",
+                "email":"E-Mail",
+                "dev":"Organization",
+                "msg":"Message",
+                "submit":"Submit",
+                "error":"There was an error sending the message. Please try again later.",
+                "ok": "Message sent successfully!"
+            }
+        }
+    ]
+}
