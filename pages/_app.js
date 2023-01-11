@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import { initializeApp, getApps } from 'firebase/app';
+import { Analytics } from '@vercel/analytics/react';
 
 
 const firebaseConfig = {
@@ -20,7 +21,12 @@ if(!getApps().length){
 }
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  )
 }
 
 export default MyApp
