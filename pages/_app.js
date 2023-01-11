@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { initializeApp, getApps } from 'firebase/app';
 import { Analytics } from '@vercel/analytics/react';
+import GAnalytics from '../Components/GAnalytics/GAnalytics';
 
 
 const firebaseConfig = {
@@ -25,6 +26,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Component {...pageProps} />
       <Analytics />
+      <GAnalytics />
     </>
   )
 }
