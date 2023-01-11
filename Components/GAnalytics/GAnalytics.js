@@ -1,7 +1,7 @@
 import Script from "next/script";
 
 function GAnalytics() {
-    const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
+    const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_TRACKING_ID;
     return (
         <>
             <Script
