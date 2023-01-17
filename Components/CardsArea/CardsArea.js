@@ -58,7 +58,7 @@ export default () => {
                         </div>
                     </div>
                     <div className={[styles.cardContent].join(" ")}>
-                        {txts[0].cards[0].text}
+                        {txts[0].cards[1].text}
                     </div>
                 </div>
                 
