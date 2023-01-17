@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import { initializeApp, getApps } from 'firebase/app';
 import { Analytics } from '@vercel/analytics/react';
 import GAnalytics from '../Components/GAnalytics/GAnalytics';
+import { AppProps } from 'next/app';
 
 
 const firebaseConfig = {
@@ -21,7 +22,7 @@ if(!getApps().length){
   app = initializeApp(firebaseConfig);
 }
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
