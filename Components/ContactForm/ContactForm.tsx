@@ -93,7 +93,7 @@ export default () => {
                     <input type="text" id="dev" name="dev" className={styles.inputForm} />
 
                     <label htmlFor='msg'>{txts[0].contactForm.msg}</label>
-                    <textarea type="text" id="msg" name="msg" className={[styles.inputForm, styles.resize].join(" ")} required></textarea>
+                    <textarea id="msg" name="msg" className={[styles.inputForm, styles.resize].join(" ")} required></textarea>
 
                     <button type="submit" className={styles.fakeBtn}>{txts[0].contactForm.submit}</button>
                 </form>
