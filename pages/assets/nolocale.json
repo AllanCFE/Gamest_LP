@@ -1,0 +1,52 @@
+{
+    "partners":{
+        "0":{
+            "name": "Fapesc",
+            "link": "https://www.fapesc.sc.gov.br/"
+        },
+        "1":{
+            "name":"InovAtiva Brasil",
+            "link":"https://www.inovativabrasil.com.br/"
+        },
+        "2":{
+            "name": "Ministério do Desenvolvimento, Indústria e Comércio e Servicos",
+            "link": "https://www.gov.br/produtividade-e-comercio-exterior/pt-br/mdic"
+        },
+        "3":{
+            "name": "ACATE",
+            "link": "https://www.acate.com.br/"
+        },
+        "4":{
+            "name": "MIDITEC ACATE",
+            "link": "https://www.acate.com.br/programas/miditec/"
+        },
+        "5":{
+            "name": "Ágora Tech Park",
+            "link": "https://agoratechpark.com.br/"
+        },
+        "6":{
+            "name": "Softville",
+            "link": "https://www.softville.org.br/"
+        },
+        "7": {
+            "name": "SEBRAE",
+            "link": "https://www.sebrae.com.br/"
+        },
+        "8":{
+            "name": "GameJamPlus",
+            "link": "https://www.gamejamplus.com/"
+        },
+        "9": {
+            "name": "IndieHero.io",
+            "link": "https://www.indiehero.io/"
+        },
+        "10":{
+            "name": "Plug and Plus",
+            "link": "https://plugandplus.com/"
+        },
+        "11": {
+            "name": "UX4indie",
+            "link": "https://ux4indie.games/"
+        }
+    }
+}
