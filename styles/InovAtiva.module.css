@@ -1,6 +1,6 @@
 .container {
     width: 100vw;
-    margin: 0 auto auto -2rem;
+    margin: 0 -2rem 0 -2rem;
     padding: 0 15px;
     background-color: #010F3D;
     color: #f0f0f0;
@@ -20,6 +20,7 @@
 .textContainer {
     width: 100%;
     margin-top: 3vh;
+    text-align: justify;
 }
 
 .centralize {
@@ -30,4 +31,14 @@
 
 .lMargin {
     margin-left: 2vw;
+}
+
+@media (max-width: 600px){
+    .container {
+        margin: 0;
+    }
+
+    .trophy {
+        width: 0;
+    }
 }

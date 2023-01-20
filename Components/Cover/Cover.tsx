@@ -51,6 +51,7 @@ export default () => {
                 </div>
             </div>
             <img className={styles.bg} src='/Back_Cover.png' alt=""/>
+            <div className={styles.fade}></div>
         </div>
     );
 }
