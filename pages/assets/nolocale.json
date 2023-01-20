@@ -48,5 +48,19 @@
             "name": "UX4indie",
             "link": "https://ux4indie.games/"
         }
+    },
+    "InovAtiva":{
+        "0":{
+            "src": "/Components/InovAtiva/InovAtiva.png",
+            "href": "https://www.inovativa.online/artigos/em-clima-de-copa-do-mundo-inovativa-experience-fecha-2022-com-conexao-e-reconhecimento/"
+        },
+        "1": {
+            "src": "/Components/InovAtiva/Gazeta.png",
+            "href": "https://www.gazetadopovo.com.br/vozes/startups-e-investimentos/inovativa-experience-programa-de-aceleracao-premia-startups-destaque-ano/"
+        },
+        "2":{
+            "src": "/Components/InovAtiva/Sebrae.png",
+            "href": "https://agenciasebrae.com.br/inovacao/programa-de-aceleracao-de-startups-destaca-ideias-mais-inovadoras/"
+        }
     }
 }

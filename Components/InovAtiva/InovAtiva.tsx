@@ -1,0 +1,43 @@
+import Navbar from "../Navbar/Navbar"
+import styles from "../../styles/InovAtiva.module.css"
+import Image from "next/image"
+import localeAssets from "../../pages/assets/texts.json"
+import noLocaleAssets from "../../pages/assets/nolocale.json"
+import { useRouter } from "next/router";
+import ImageLink from "../ImageLink/ImageLink";
+
+export default () => {
+    const { locale } = useRouter();
+    const txts = localeAssets.front_page.filter(t => t.locale == locale)
+    const lAssets = txts[0].InovAtiva
+    const nlAssets = noLocaleAssets.InovAtiva
+
+        return(
+    
+            <div className={[styles.container].join(" ")}>
+                <div className={[styles.trophy, styles.centralize].join(" ")}>
+                    <Image className={styles.centralize} src="/Components/InovAtiva/trophy.png" width={600} height={600}/>
+                </div>
+                <div className={styles.textContainer}>
+                    <div>
+                        <h2> {lAssets.title} </h2>
+                    </div>
+                    <div>
+                        <p> {lAssets.text} </p>
+                    </div>
+                    <div className={[styles.flex].join(" ")}>
+                        <div className={styles.centralize}>
+                            <p>{lAssets.newspaper}</p>
+                        </div>
+                        <div className={[styles.flex].join(" ")} > 
+                            {Object.keys(nlAssets).map((key) => {
+                                return( 
+                                    <ImageLink className={styles.lMargin} src={nlAssets[key].src} width={50} height={50} href={nlAssets[key].href}/>
+                                )
+                            })}
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        )
+}

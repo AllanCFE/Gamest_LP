@@ -1,14 +1,14 @@
 import styles from '../../styles/Cover.module.css'
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import texts from '../../pages/assets/texts.json'
+import localeAssets from '../../pages/assets/texts.json'
 import Link from 'next/link';
 
 export default () => {
 
     const { locale } = useRouter();
 
-    const txts = texts.front_page.filter(t => t.locale == locale)
+    const txts = localeAssets.front_page.filter(t => t.locale == locale)
 
     return (
         <div className={styles.wrap}>

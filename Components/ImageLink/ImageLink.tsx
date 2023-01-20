@@ -9,6 +9,7 @@ interface Props {
     src: string;
     width: number;
     height?: number;
+    className?: string;
 }
 
 interface Local extends Props {
@@ -20,11 +21,13 @@ interface Out extends Props {
     local?: never;
     href: string;
 }
-export default ({src, href, local, width, height=width}:Local | Out) => {
+export default ({src, href, local, width, height=width, className}:Local | Out) => {
 
+    const nClassname = (className != undefined) ? className : "";
+    
     if(href != undefined){
         return(
-            <div className={[styles.outLink].join(" ")}>
+            <div className={[styles.outLink, nClassname].join(" ")}>
                 <a href={href} target="_blank">
                     <Image src={src} width={width} height={height}/>
                 </a>
@@ -34,7 +37,7 @@ export default ({src, href, local, width, height=width}:Local | Out) => {
         return(
         <div className={[styles.localLink].join(" ")}>
             <Link href={local}>
-                <a><Image src={src} width={width} height={height}/></a>
+                <a><Image className={nClassname} src={src} width={width} height={height}/></a>
             </Link>
         </div>
     )

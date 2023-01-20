@@ -1,0 +1,33 @@
+.container {
+    width: 100vw;
+    margin: 0 auto auto -2rem;
+    padding: 0 15px;
+    background-color: #010F3D;
+    color: #f0f0f0;
+    display: flex;
+    z-index: 999;
+}
+
+.flex {
+    display: flex;
+}
+
+.trophy {
+    width: 30%;
+    display: flex;
+}
+
+.textContainer {
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.centralize {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lMargin {
+    margin-left: 2vw;
+}
