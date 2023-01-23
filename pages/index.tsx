@@ -6,6 +6,7 @@ import Cover from '../Components/Cover/Cover'
 import CardsArea from '../Components/CardsArea/CardsArea'
 import Footer from '../Components/Footer/Footer'
 import InovAtiva from '../Components/InovAtiva/InovAtiva'
+import Partners from '../Components/Partners/Partners'
 
 export default function Home() {
   
@@ -26,6 +27,8 @@ export default function Home() {
         <InovAtiva />
 
         <CardsArea />
+
+        <Partners />
 
         <Footer />
       </main>

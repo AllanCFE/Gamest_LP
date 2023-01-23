@@ -2,51 +2,63 @@
     "partners":{
         "0":{
             "name": "Fapesc",
-            "link": "https://www.fapesc.sc.gov.br/"
+            "link": "https://www.fapesc.sc.gov.br/",
+            "src": "/Components/Partners/Fapesc.png"
         },
         "1":{
             "name":"InovAtiva Brasil",
-            "link":"https://www.inovativabrasil.com.br/"
+            "link":"https://www.inovativabrasil.com.br/",
+            "src": "/Components/Partners/InovAtiva.png"
         },
         "2":{
             "name": "Ministério do Desenvolvimento, Indústria e Comércio e Servicos",
-            "link": "https://www.gov.br/produtividade-e-comercio-exterior/pt-br/mdic"
+            "link": "https://www.gov.br/produtividade-e-comercio-exterior/pt-br/mdic",
+            "src": "/Components/Partners/MDIC.png"
         },
         "3":{
             "name": "ACATE",
-            "link": "https://www.acate.com.br/"
+            "link": "https://www.acate.com.br/",
+            "src": "/Components/Partners/Acate.png"
         },
         "4":{
             "name": "MIDITEC ACATE",
-            "link": "https://www.acate.com.br/programas/miditec/"
+            "link": "https://www.acate.com.br/programas/miditec/",
+            "src": "/Components/Partners/Miditec.png"
         },
         "5":{
             "name": "Ágora Tech Park",
-            "link": "https://agoratechpark.com.br/"
+            "link": "https://agoratechpark.com.br/",
+            "src": "/Components/Partners/Agora.png"
         },
         "6":{
             "name": "Softville",
-            "link": "https://www.softville.org.br/"
+            "link": "https://www.softville.org.br/",
+            "src": "/Components/Partners/Softville.png"
         },
         "7": {
             "name": "SEBRAE",
-            "link": "https://www.sebrae.com.br/"
+            "link": "https://www.sebrae.com.br/",
+            "src": "/Components/Partners/Sebrae.png"
         },
         "8":{
             "name": "GameJamPlus",
-            "link": "https://www.gamejamplus.com/"
+            "link": "https://www.gamejamplus.com/",
+            "src": "/Components/Partners/GameJamPlus.png"
         },
         "9": {
             "name": "IndieHero.io",
-            "link": "https://www.indiehero.io/"
+            "link": "https://www.indiehero.io/",
+            "src": "/Components/Partners/IndieHero.png"
         },
         "10":{
             "name": "Plug and Plus",
-            "link": "https://plugandplus.com/"
+            "link": "https://plugandplus.com/",
+            "src": "/Components/Partners/PlugAndPlus.png"
         },
         "11": {
             "name": "UX4indie",
-            "link": "https://ux4indie.games/"
+            "link": "https://ux4indie.games/",
+            "src": "/Components/Partners/UX4indie.png"
         }
     },
     "InovAtiva":{
