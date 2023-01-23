@@ -5,7 +5,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import InovAtiva from '../Components/InovAtiva/InovAtiva';
 import Footer from '../Components/Footer/Footer';
 
-export default () => {
+function Test() {
 
     return(
 
@@ -23,3 +23,5 @@ export default () => {
         </div>
     )
 }
+
+export default Test;
