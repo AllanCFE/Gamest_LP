@@ -1,12 +1,12 @@
 import styles from '../../styles/CardsArea.module.css'
 import { useRouter } from 'next/router';
-import texts from '../../pages/assets/texts.json'
+import localeAssets from '../../pages/assets/texts.json'
 
 export default () => {
 
     const { locale } = useRouter();
 
-    const txts = texts.front_page.filter(t => t.locale == locale)
+    const txts = localeAssets.front_page.filter(t => t.locale == locale)
 
     return (
         <div className={[styles.sectionArea].join(" ")}>

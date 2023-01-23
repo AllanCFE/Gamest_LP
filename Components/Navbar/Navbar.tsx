@@ -3,12 +3,12 @@ import flags from '../../styles/Flags.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import texts from '../../pages/assets/texts.json'
+import localeAssets from '../../pages/assets/texts.json'
 
 export default() =>{
     const { locale, locales, asPath } = useRouter();
 
-    const txts = texts.front_page.filter(t => t.locale == locale)
+    const txts = localeAssets.front_page.filter(t => t.locale == locale)
 
     return(
         <nav className={styles.navbar}>
