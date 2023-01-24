@@ -90,6 +90,10 @@
 }
 
 @media (max-width: 600px) {
+    .contactArea {
+        margin-top: 5vh;
+    }
+
     .footerLeft {
         display: flex;
         justify-content: space-between;

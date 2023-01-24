@@ -5,7 +5,7 @@ body {
   font-family: -apple-system, Questrial, RudaBlack, MontserratArabic, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   overflow-x:hidden;
-  font-size: max(1.3vw,15px);
+  font-size: 1rem;
   scroll-behavior: smooth;
 }
 
@@ -19,19 +19,19 @@ a {
 }
 
 h1 {
-  font-size: max(5vw,35px);
+  font-size: 2.5rem;
   margin: 0;
   font-family: MontserratArabic;
 }
 
 h2 {
-  font-size: max(2.5vw,18px);
+  font-size: 1.7rem;
   margin: 0;
   font-family: RudaBlack;
 }
 
 h3 {
-  font-size: max(2vw,18px);
+  font-size: 1.3rem;
   margin: 1vw 0 1vw 0;
   font-family: RudaBlack;
 }
@@ -43,11 +43,11 @@ p{
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 2em;
+    font-size: 1.8rem;
   }
 
   h2 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 }
 
