@@ -21,7 +21,7 @@ export default () => {
                         {/** 1a linha, para o título, contendo 2 colunas */}
                         <div className={[styles.horizontalSplit, styles.line, styles.verticalAlign].join(" ")}>
                             {/** Controle esquerdo */}
-                            <div style={{width: "13%", minWidth: "32px"}}> 
+                            <div style={{width: "7%", minWidth: "32px"}}> 
                                 <Image src='/Controle_L.png' layout="responsive" width={480} height={1024} />
                             </div>
                             {/** Título */}

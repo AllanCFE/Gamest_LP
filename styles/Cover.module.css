@@ -70,6 +70,15 @@
     margin-left: 10vw;
 }
 
+@media (max-width: 850px) {
+    .secondColumn{
+        width: 0;
+    }
+
+    .firstColumn {
+        width: 100%;
+    }
+}
 
 @media (max-width: 600px) {
     .wrap {
@@ -88,14 +97,6 @@
     .cover {
         margin-top: 0;
         overflow: hidden;
-    }
-
-    .firstColumn {
-        width: 100%;
-    }
-
-    .secondColumn{
-        width: 0;
     }
 
     .subtitle {
