@@ -1,11 +1,12 @@
 .container {
     width: 100vw;
     margin: 0 -2rem 0 -2rem;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: max(calc(14.25vw - 116px), 10px);
     background-color: #010F3D;
     color: #f0f0f0;
     display: flex;
-    z-index: 999;
+    z-index: 100;
 }
 
 .flex {
@@ -36,6 +37,7 @@
 @media (max-width: 600px){
     .container {
         margin: 0;
+        padding: 1vh 4vw;
     }
 
     .trophy {

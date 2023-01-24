@@ -1,6 +1,5 @@
 .sectionArea {
     width: 100vw;
-    height: min(70vh, 40vw);
     display: flex;
     justify-content: space-around;
     background-color: #d6d8e3;
@@ -28,7 +27,7 @@
 
 .card {
     width: 30%;
-    height: min(35vw,100%);
+    height: min(50vh,100%);
     background-color: #F0F0F0;
     border-radius: 15px;
     display: flex;
@@ -62,7 +61,6 @@
 @media (max-width: 600px) {
     .sectionArea {
         flex-direction: column;
-        height: 50vh;
     }
 
     .textArea {
@@ -77,6 +75,8 @@
 
     .card{
         height: 20vh;
+        padding-bottom: 10px;
+        padding-top: 0px;
     }
 
     .cardContent {
