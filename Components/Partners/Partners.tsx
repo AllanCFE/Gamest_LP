@@ -18,7 +18,7 @@ function Partners () {
                     {Object.keys(partners).map((key) => {
                         if (parseInt(key) < 6) return (
                             <div key={key} className={styles.holder}>
-                                <ImageLink className={styles.image} src={partners[key].src} width={100} height={100} href={partners[key].link}/>
+                                <ImageLink key={key} className={styles.image} src={partners[key].src} width={100} height={100} href={partners[key].link}/>
                             </div>
                         )
                     })}
@@ -28,7 +28,7 @@ function Partners () {
                     {Object.keys(partners).map((key) => {
                         if (parseInt(key) >= 6) return (
                             <div key={key} className={styles.holder}>
-                                <ImageLink className={styles.image} src={partners[key].src} width={100} height={100} href={partners[key].link}/>
+                                <ImageLink key={key} className={styles.image} src={partners[key].src} width={100} height={100} href={partners[key].link}/>
                             </div>
                         )
                     })}
