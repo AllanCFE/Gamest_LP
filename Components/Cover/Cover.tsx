@@ -36,7 +36,7 @@ export default () => {
                                 <h2>{txts[0].cover.subtitle}</h2>
                             </div>
                             {/** Controle direito */}
-                            <div style={{width: "15%", minWidth: "30px"}}>
+                            <div style={{width: "9%", minWidth: "30px"}}>
                                 <Image src='/Controle_R.png'  layout="responsive" width={480} height={1024}/>
                             </div>
                         </div>
@@ -51,7 +51,6 @@ export default () => {
                 </div>
             </div>
             <img className={styles.bg} src='/Back_Cover.png' alt=""/>
-            <div className={styles.fade}></div>
         </div>
     );
 }

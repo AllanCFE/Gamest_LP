@@ -29,7 +29,7 @@ export default () => {
                         <div className={styles.centralize}>
                             <p>{lAssets.newspaper}</p>
                         </div>
-                        <div className={[styles.flex].join(" ")} > 
+                        <div className={[styles.flex, styles.invert].join(" ")} > 
                             {Object.keys(nlAssets).map((key) => {
                                 return( 
                                     <ImageLink className={styles.lMargin} src={nlAssets[key].src} width={50} height={50} href={nlAssets[key].href}/>
