@@ -10,6 +10,7 @@ interface Props {
     width: number;
     height?: number;
     className?: string;
+    key?: string;
 }
 
 interface Local extends Props {
@@ -21,23 +22,24 @@ interface Out extends Props {
     local?: never;
     href: string;
 }
-export default ({src, href, local, width, height=width, className}:Local | Out) => {
+export default ({src, href, local, width, height=width, className, key}:Local | Out) => {
 
     const nClassname = (className != undefined) ? className : "";
-    
+    const nKey = (key != undefined) ? key : "";
+
     if(href != undefined){
         return(
-            <div className={[styles.outLink, nClassname].join(" ")}>
-                <a href={href} target="_blank">
-                    <Image src={src} width={width} height={height}/>
+            <div key={nKey} className={[styles.outLink, nClassname].join(" ")}>
+                <a key={nKey} href={href} target="_blank">
+                    <Image key={nKey} className={nClassname} src={src} width={width} height={height}/>
                 </a>
             </div>
         )
     } else {
         return(
-        <div className={[styles.localLink].join(" ")}>
-            <Link href={local}>
-                <a><Image className={nClassname} src={src} width={width} height={height}/></a>
+        <div key={nKey} className={[styles.localLink].join(" ")}>
+            <Link key={nKey} href={local}>
+                <a key={nKey} ><Image key={nKey} className={nClassname} src={src} width={width} height={height}/></a>
             </Link>
         </div>
     )

@@ -1,15 +1,14 @@
 .cover {
-    height: 100%;
     width: 100vw;
     padding: 8vh 10px 0 4vw;
     color: #F0F0F0;
 }
 
 .wrap {
-    height: max(30vw,55vh);
     overflow: hidden;
     background-color: #010F3D;
     margin-top: 10vh;
+    padding-bottom: 4vh;
 }
 
 .bg {
@@ -18,17 +17,6 @@
     left: 0;
     top: 0;
     height: 100vh;
-}
-
-.fade {
-    opacity: 1;
-    margin-top: 10vh;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: max(30vw,55vh);
-    width: 100vw;
-    background: linear-gradient(180deg, rgba(1, 15, 61, 0) 60%, #010F3D 100%);
 }
 
 .fakeBtn {
@@ -84,16 +72,9 @@
     .wrap {
         margin: 0px;
         overflow-x: hidden; 
-        height: min(47vh, 60vw);
         overflow: hidden;
     }
 
-    .fade {
-        height: min(47vh, 60vw);
-        overflow: hidden;
-        margin-top: 0;
-        background: linear-gradient(180deg, rgba(1, 15, 61, 0) 70%, #010F3D 100%);
-    }
     .cover {
         margin-top: 0;
         overflow: hidden;

@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     width: 65%;
-    padding: 0 1vw 1vw 1vw;
+    padding: 1vw 1vw 1vw 1vw;
 }
 
 .card {
@@ -35,12 +35,12 @@
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    padding: 0.2vh 2vw 5vh 2vw;
+    padding: 0.5vh 2vw 2vh 2vw;
 }
 
 .cardTitle {
     font-size: 4.7vw;
-    margin-bottom: 3vh;
+    margin-bottom: 2.5vh;
     font-family: MontserratArabic;
 }
 

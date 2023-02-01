@@ -3,8 +3,8 @@
     margin: 0 -2rem 0 -2rem;
     padding-left: 15px;
     padding-right: max(calc(14.25vw - 116px), 10px);
-    background-color: #010F3D;
-    color: #f0f0f0;
+    background-color: #d6d8e3;
+    color: #212427;
     display: flex;
     z-index: 100;
 }
@@ -16,6 +16,11 @@
 .trophy {
     width: 30%;
     display: flex;
+    filter: invert(0.9);
+}
+
+.invert {
+    filter: invert(0.9);
 }
 
 .textContainer {

@@ -25,7 +25,7 @@
                 },
                 "title":"Buscamos os melhores players para o seu projeto",
                 "p1": "Com a Gamest você vai reduzir os custos na busca pelo candidato ideal, otimizar o tempo da sua equipe, permitindo que eles foquem no que realmente é importante.",
-                "p2": "E o melhor: tendo a certeza que uma empresa especializada em game recruiting está por trás de tudo isso."
+                "p2": "E o melhor, tendo a certeza que uma empresa especializada em game recruiting está por trás de tudo isso."
             },
             "footbar":{
                 "rights":"© 2023 Gamest - Todos os direitos reservados"
@@ -47,6 +47,9 @@
                 "title": "Gamest é reconhecida como Startup Destaque no programa InovAtiva Brasil",
                 "text": "O programa InovAtiva Brasil 2022.2 contou com o apoio do Ministério da Economia, Sebrae, Fundação CERTI, ABSTARTUPS, Impact Hub e diversos outros colaboradores do ecossistema de inovação e empreendedorismo. O programa promoveu oportunidades de aceleração de negócios inovadores, conexão com potenciais investidores e parceiros e capacitação empreendedora.",
                 "newspaper": "Saiba mais na íntegra: "
+            },
+            "partners": {
+                "title": "Parceiros"
             }
         },
         {
@@ -74,7 +77,7 @@
                 },
                 "title":"We seek for the best players for your project",
                 "p1": "With Gamest you will reduce costs in the search for the ideal candidate, optimize your team's time, allowing them to focus on what is really important.",
-                "p2": "And the best: making sure that a company specialized in game recruiting is behind it all."
+                "p2": "And the best part? Making sure that a company specialized in game recruiting is behind it all."
             },
             "footbar":{
                 "rights":"© 2023 Gamest - All rights reserved"
@@ -96,6 +99,9 @@
                 "title": "Gamest is awarded as a Highlight Startup in the InovAtiva Brazil program",
                 "text": "The InovAtiva Brasil 2022.2 program was supported by the Ministry of Economy, Sebrae, CERTI Foundation, ABSTARTUPS, Impact Hub and several other collaborators in the innovation and entrepreneurship ecosystem. The program promoted opportunities for accelerating innovative businesses, connecting with potential investors and partners, and providing entrepreneurial training.",
                 "newspaper": "Read more: "
+            },
+            "partners": {
+                "title": "Partners"
             }                
         }
     ]
