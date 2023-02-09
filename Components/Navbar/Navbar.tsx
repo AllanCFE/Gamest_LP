@@ -15,7 +15,7 @@ export default() =>{
         <nav className={styles.navbar}>
             <div className={styles.nav_left}>
                 <Link href='/'>
-                    <Image alt="Logo Gamest" src={GamestLogo} width={866} height={179} style={{objectFit: "contain", maxWidth: "15vw"}}/>                   
+                    <Image alt="Logo Gamest" src={GamestLogo} width={866} height={179} style={{objectFit: "contain", maxWidth: "14vw"}}/>                   
                 </Link>
             </div>
             <div className={styles.nav_right}>
