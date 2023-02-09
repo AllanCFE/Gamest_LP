@@ -47,6 +47,6 @@
 
     .trophy {
         width: 0;
-        visibility: hidden;
+        visibility: hidden !important;
     }
 }
