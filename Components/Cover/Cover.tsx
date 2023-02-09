@@ -26,7 +26,7 @@ export default () => {
                         <div className={[styles.horizontalSplit, styles.line, styles.verticalAlign].join(" ")}>
                             {/** Controle esquerdo */}
                             <div style={{width: "7%", minWidth: "32px"}}> 
-                                <Image src={LControl} layout="responsive" width={480} height={1024} />
+                                <Image alt="Left Control" src={LControl} layout="responsive" width={480} height={1024} />
                             </div>
                             {/** Título */}
                             <div style={{paddingLeft: "2vw"}}>
@@ -41,7 +41,7 @@ export default () => {
                             </div>
                             {/** Controle direito */}
                             <div style={{width: "9%", minWidth: "30px"}}>
-                                <Image src={RControl}  layout="responsive" width={480} height={1024}/>
+                                <Image alt="Right Control" src={RControl}  layout="responsive" width={480} height={1024}/>
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@ export default () => {
 
                     {/** Segunda coluna com apenas o tamanho da figura */}
                     <div className={[styles.secondColumn].join(" ")}>
-                        <Image src={RCover} width={250} height={250}/>
+                        <Image alt="Drawing of a guy using a computer" src={RCover} width={250} height={250}/>
                     </div>
                 </div>
             </div>

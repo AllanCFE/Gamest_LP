@@ -17,7 +17,7 @@ export default () => {
     
             <div className={[styles.container].join(" ")}>
                 <div className={[styles.trophy, styles.centralize].join(" ")}>
-                    <Image className={styles.centralize} src={Trophy} width={600} height={600}/>
+                    <Image alt="Trophy" className={styles.centralize} src={Trophy} width={600} height={600}/>
                 </div>
                 <div className={styles.textContainer}>
                     <div>

@@ -15,7 +15,7 @@ export default() =>{
         <nav className={styles.navbar}>
             <div className={styles.nav_left}>
                 <Link href='/'>
-                    <a><Image src={GamestLogo} width={866} height={179}/></a>                    
+                    <Image alt="Logo Gamest" src={GamestLogo} width={866} height={179} style={{objectFit: "contain", maxWidth: "15vw"}}/>                   
                 </Link>
             </div>
             <div className={styles.nav_right}>
@@ -24,7 +24,7 @@ export default() =>{
                         return (
                             
                                 <Link key={i}  href={asPath} locale={l}>
-                                        <a key={i} ><span key={i} className={[l === locale ? styles.selected : '', l == "pt-BR" ? flags.ptBR : flags.enUS, flags.fi ].join(" ")}></span></a>
+                                        <span key={i} className={[l === locale ? styles.selected : '', l == "pt-BR" ? flags.ptBR : flags.enUS, flags.fi ].join(" ")}></span>
                                 </Link>
                         );
                     })}

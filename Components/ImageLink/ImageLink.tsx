@@ -31,7 +31,7 @@ export default ({src, href, local, width, height=width, className, key}:Local | 
         return(
             <div key={nKey} className={[styles.outLink, nClassname].join(" ")}>
                 <a key={nKey} href={href} target="_blank">
-                    <Image key={nKey} className={nClassname} src={src} width={width} height={height}/>
+                    <Image alt="_" key={nKey} className={nClassname} src={src} width={width} height={height}/>
                 </a>
             </div>
         )
@@ -39,7 +39,7 @@ export default ({src, href, local, width, height=width, className, key}:Local | 
         return(
         <div key={nKey} className={[styles.localLink].join(" ")}>
             <Link key={nKey} href={local}>
-                <a key={nKey} ><Image key={nKey} className={nClassname} src={src} width={width} height={height}/></a>
+                <Image alt="_" key={nKey} className={nClassname} src={src} width={width} height={height}/>
             </Link>
         </div>
     )
