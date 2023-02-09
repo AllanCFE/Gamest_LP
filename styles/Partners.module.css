@@ -50,10 +50,15 @@
     .holder {
         width: 80px;
         height: 80px;
-        padding: 5%;
+        padding: 18%;
         align-items: center;
         justify-content: center;
         display: flex;
+    }
+
+    .holder:hover{
+        padding: 12%;
+        transition: 300ms;
     }
 
     .rowContainer {
@@ -62,10 +67,14 @@
     }
 
     .image {
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
         justify-content: center;
         align-items: center;
         display: flex;
+    }
+
+    .image img {
+        margin: 0;
     }
 }

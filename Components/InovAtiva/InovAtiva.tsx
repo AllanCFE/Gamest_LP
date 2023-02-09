@@ -17,7 +17,7 @@ export default function InovAtiva () {
     
             <div className={[styles.container].join(" ")}>
                 <div className={[styles.trophy, styles.centralize].join(" ")}>
-                    <Image alt="Trophy" className={styles.centralize} src={Trophy} width={600} height={600} style={{objectFit: "contain", maxHeight: "22vw", maxWidth: "22vw"}} />
+                    <Image alt="Trophy" className={styles.centralize} src={Trophy} width={600} height={600} style={{objectFit: "contain", maxHeight: "17vw", maxWidth: "17vw"}} />
                 </div>
                 <div className={styles.textContainer}>
                     <div>
