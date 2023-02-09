@@ -22,7 +22,7 @@ interface Out extends Props {
     local?: never;
     href: string;
 }
-export default ({src, href, local, width, height=width, className, key}:Local | Out) => {
+export default function ImageLink ({src, href, local, width, height=width, className, key}:Local | Out) {
 
     const nClassname = (className != undefined) ? className : "";
     const nKey = (key != undefined) ? key : "";
@@ -30,7 +30,7 @@ export default ({src, href, local, width, height=width, className, key}:Local | 
     if(href != undefined){
         return(
             <div key={nKey} className={[styles.outLink, nClassname].join(" ")}>
-                <a key={nKey} href={href} target="_blank">
+                <a key={nKey} href={href} target="_blank" rel="noreferrer" >
                     <Image alt="_" key={nKey} className={nClassname} src={src} width={width} height={height}/>
                 </a>
             </div>

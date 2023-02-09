@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import localeAssets from '../../pages/assets/texts.json'
 import GamestLogo from '../../public/Logo_Gamest.png'
 
-export default() =>{
+export default function Navbar() {
     const { locale, locales, asPath } = useRouter();
 
     const txts = localeAssets.front_page.filter(t => t.locale == locale)

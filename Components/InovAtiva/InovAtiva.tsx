@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import ImageLink from "../ImageLink/ImageLink";
 import Trophy from "../../public/Components/InovAtiva/trophy.png"
 
-export default () => {
+export default function InovAtiva () {
     const { locale } = useRouter();
     const txts = localeAssets.front_page.filter(t => t.locale == locale)
     const lAssets = txts[0].InovAtiva
@@ -33,7 +33,7 @@ export default () => {
                         <div className={[styles.flex, styles.invert].join(" ")} > 
                             {Object.keys(nlAssets).map((key) => {
                                 return( 
-                                    <ImageLink className={styles.lMargin} src={nlAssets[key].src} width={50} height={50} href={nlAssets[key].href}/>
+                                    <ImageLink key={key} className={styles.lMargin} src={nlAssets[key].src} width={50} height={50} href={nlAssets[key].href}/>
                                 )
                             })}
                         </div>

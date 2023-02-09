@@ -8,7 +8,7 @@ import RControl from '../../public/Controle_R.png'
 import BackCover from '../../public/Back_Cover.png'
 import RCover from '../../public/Right_Cover.png'
 
-export default () => {
+export default function Cover () {
 
     const { locale } = useRouter();
 

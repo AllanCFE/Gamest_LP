@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router';
 import localeAssets from '../../pages/assets/texts.json'
 
-export default () => {
+export default function ContactForm () {
 
     const { locale } = useRouter();
 
@@ -53,23 +53,23 @@ export default () => {
 
                     <div className={styles.footerLeft}>
                         <div className={styles.smLogos}>
-                            <a href='https://www.instagram.com/gamestoficial/' target="_blank" className={styles.centerH}>
-                                <Image src='/Instagram.png' width={100} height={100}/>
+                            <a href='https://www.instagram.com/gamestoficial/' target="_blank" rel="noreferrer" className={styles.centerH}>
+                                <Image alt="Instagram" src='/Instagram.png' width={100} height={100}/>
                             </a>
                         </div>
                         <div className={styles.smLogos}>
-                            <a href='https://www.linkedin.com/company/gamestoficial/' target="_blank" className={styles.centerH}>
-                                <Image src='/LinkedIn.png' width={100} height={100}/>
+                            <a href='https://www.linkedin.com/company/gamestoficial/' target="_blank" rel="noreferrer" className={styles.centerH}>
+                                <Image alt="LinkedIn" src='/LinkedIn.png' width={100} height={100}/>
                             </a>
                         </div>
                         <div className={styles.smLogos}>
-                            <a href='mailto:joaovictorcastro@gamest.com.br' target="_blank" className={styles.centerH}>
-                                <Image src='/Mail.png' width={100} height={100}/>
+                            <a href='mailto:joaovictorcastro@gamest.com.br' target="_blank" rel="noreferrer" className={styles.centerH}>
+                                <Image alt="Mail" src='/Mail.png' width={100} height={100}/>
                             </a>
                         </div>
                         <div className={styles.smLogos}>
-                            <a href='https://api.whatsapp.com/send?phone=556599780487&text=Gostaria%20de%20conversar%20sobre%20o%20servi%C3%A7o%20de%20recrutamento%20da%20Gamest' target="_blank" className={styles.centerH}>
-                                <Image src='/WhatsApp.png' width={100} height={100}/>
+                            <a href='https://api.whatsapp.com/send?phone=556599780487&text=Gostaria%20de%20conversar%20sobre%20o%20servi%C3%A7o%20de%20recrutamento%20da%20Gamest' target="_blank" rel="noreferrer" className={styles.centerH}>
+                                <Image alt="WhatsApp" src='/WhatsApp.png' width={100} height={100}/>
                             </a>
                         </div>
                     </div>
