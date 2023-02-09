@@ -2,7 +2,7 @@ import styles from '../../styles/CardsArea.module.css'
 import { useRouter } from 'next/router';
 import localeAssets from '../../pages/assets/texts.json'
 
-export default () => {
+export default function CardsArea () {
 
     const { locale } = useRouter();
 

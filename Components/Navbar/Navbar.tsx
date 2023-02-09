@@ -4,8 +4,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import localeAssets from '../../pages/assets/texts.json'
+import GamestLogo from '../../public/Logo_Gamest.png'
 
-export default() =>{
+export default function Navbar() {
     const { locale, locales, asPath } = useRouter();
 
     const txts = localeAssets.front_page.filter(t => t.locale == locale)
@@ -14,7 +15,7 @@ export default() =>{
         <nav className={styles.navbar}>
             <div className={styles.nav_left}>
                 <Link href='/'>
-                    <a><Image src='/Logo_Gamest.png' width={866} height={179}/></a>                    
+                    <Image alt="Logo Gamest" src={GamestLogo} width={866} height={179} style={{objectFit: "contain", maxWidth: "14vw"}}/>                   
                 </Link>
             </div>
             <div className={styles.nav_right}>
@@ -23,7 +24,7 @@ export default() =>{
                         return (
                             
                                 <Link key={i}  href={asPath} locale={l}>
-                                        <a key={i} ><span key={i} className={[l === locale ? styles.selected : '', l == "pt-BR" ? flags.ptBR : flags.enUS, flags.fi ].join(" ")}></span></a>
+                                        <span key={i} className={[l === locale ? styles.selected : '', l == "pt-BR" ? flags.ptBR : flags.enUS, flags.fi ].join(" ")}></span>
                                 </Link>
                         );
                     })}

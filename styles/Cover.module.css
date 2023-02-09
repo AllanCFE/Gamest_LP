@@ -70,7 +70,7 @@
 
 @media (max-width: 600px) {
     .wrap {
-        margin: 0px;
+        margin: 0;
         overflow-x: hidden; 
         overflow: hidden;
     }
@@ -95,5 +95,9 @@
         width: 200px;
         height: 50px;
         padding: 0;
+    }
+
+    .firstColumn {
+        margin-right: 2vw;
     }
 }

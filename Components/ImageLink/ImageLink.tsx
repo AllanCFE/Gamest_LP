@@ -22,7 +22,7 @@ interface Out extends Props {
     local?: never;
     href: string;
 }
-export default ({src, href, local, width, height=width, className, key}:Local | Out) => {
+export default function ImageLink ({src, href, local, width, height=width, className, key}:Local | Out) {
 
     const nClassname = (className != undefined) ? className : "";
     const nKey = (key != undefined) ? key : "";
@@ -30,8 +30,8 @@ export default ({src, href, local, width, height=width, className, key}:Local | 
     if(href != undefined){
         return(
             <div key={nKey} className={[styles.outLink, nClassname].join(" ")}>
-                <a key={nKey} href={href} target="_blank">
-                    <Image key={nKey} className={nClassname} src={src} width={width} height={height}/>
+                <a key={nKey} href={href} target="_blank" rel="noreferrer" >
+                    <Image alt="_" key={nKey} className={nClassname} src={src} width={width} height={height}/>
                 </a>
             </div>
         )
@@ -39,7 +39,7 @@ export default ({src, href, local, width, height=width, className, key}:Local | 
         return(
         <div key={nKey} className={[styles.localLink].join(" ")}>
             <Link key={nKey} href={local}>
-                <a key={nKey} ><Image key={nKey} className={nClassname} src={src} width={width} height={height}/></a>
+                <Image alt="_" key={nKey} className={nClassname} src={src} width={width} height={height}/>
             </Link>
         </div>
     )

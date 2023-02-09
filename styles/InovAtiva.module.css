@@ -36,7 +36,7 @@
 }
 
 .lMargin {
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 
 @media (max-width: 600px){
@@ -47,5 +47,6 @@
 
     .trophy {
         width: 0;
+        visibility: hidden !important;
     }
 }

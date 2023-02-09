@@ -5,10 +5,12 @@ function GAnalytics() {
     return (
         <>
             <Script
+            id="GoogleAnalyticsTracking"
             strategy="afterInteractive"
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
             />
             <Script
+            id="GoogleAnalyticsWindow"
             strategy="afterInteractive"
             dangerouslySetInnerHTML={{
                 __html: `

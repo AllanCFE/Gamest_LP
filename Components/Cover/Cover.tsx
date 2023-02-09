@@ -3,8 +3,12 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import localeAssets from '../../pages/assets/texts.json'
 import Link from 'next/link';
+import LControl from '../../public/Controle_L.png'
+import RControl from '../../public/Controle_R.png'
+import BackCover from '../../public/Back_Cover.png'
+import RCover from '../../public/Right_Cover.png'
 
-export default () => {
+export default function Cover () {
 
     const { locale } = useRouter();
 
@@ -22,7 +26,7 @@ export default () => {
                         <div className={[styles.horizontalSplit, styles.line, styles.verticalAlign].join(" ")}>
                             {/** Controle esquerdo */}
                             <div style={{width: "7%", minWidth: "32px"}}> 
-                                <Image src='/Controle_L.png' layout="responsive" width={480} height={1024} />
+                                <Image alt="Left Control" src={LControl} layout="responsive" width={480} height={1024} />
                             </div>
                             {/** Título */}
                             <div style={{paddingLeft: "2vw"}}>
@@ -37,7 +41,7 @@ export default () => {
                             </div>
                             {/** Controle direito */}
                             <div style={{width: "9%", minWidth: "30px"}}>
-                                <Image src='/Controle_R.png'  layout="responsive" width={480} height={1024}/>
+                                <Image alt="Right Control" src={RControl}  layout="responsive" width={480} height={1024}/>
                             </div>
                         </div>
 
@@ -46,7 +50,7 @@ export default () => {
 
                     {/** Segunda coluna com apenas o tamanho da figura */}
                     <div className={[styles.secondColumn].join(" ")}>
-                        <Image src='/Right_Cover.png' width={250} height={250}/>
+                        <Image alt="Drawing of a guy using a computer" src={RCover} width={250} height={250}/>
                     </div>
                 </div>
             </div>
