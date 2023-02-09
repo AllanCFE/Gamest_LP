@@ -5,6 +5,7 @@ import localeAssets from "../../pages/assets/texts.json"
 import noLocaleAssets from "../../pages/assets/nolocale.json"
 import { useRouter } from "next/router";
 import ImageLink from "../ImageLink/ImageLink";
+import Trophy from "../../public/Components/InovAtiva/trophy.png"
 
 export default () => {
     const { locale } = useRouter();
@@ -16,7 +17,7 @@ export default () => {
     
             <div className={[styles.container].join(" ")}>
                 <div className={[styles.trophy, styles.centralize].join(" ")}>
-                    <Image className={styles.centralize} src="/Components/InovAtiva/trophy.png" width={600} height={600}/>
+                    <Image className={styles.centralize} src={Trophy} width={600} height={600}/>
                 </div>
                 <div className={styles.textContainer}>
                     <div>

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import localeAssets from '../../pages/assets/texts.json'
+import GamestLogo from '../../public/Logo_Gamest.png'
 
 export default() =>{
     const { locale, locales, asPath } = useRouter();
@@ -14,7 +15,7 @@ export default() =>{
         <nav className={styles.navbar}>
             <div className={styles.nav_left}>
                 <Link href='/'>
-                    <a><Image src='/Logo_Gamest.png' width={866} height={179}/></a>                    
+                    <a><Image src={GamestLogo} width={866} height={179}/></a>                    
                 </Link>
             </div>
             <div className={styles.nav_right}>
