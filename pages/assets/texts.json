@@ -36,8 +36,8 @@
             "contactForm":{
                 "title":"Entre em Contato",
                 "name":"Nome",
-                "email":"E-Mail",
-                "dev":"Desenvolvedora",
+                "email":"E-mail",
+                "dev":"Empresa",
                 "msg":"Mensagem",
                 "submit":"Enviar",
                 "error":"Erro ao enviar a mensagem. Tente novamente mais tarde.",
@@ -88,8 +88,8 @@
             "contactForm":{
                 "title":"Contact Us",
                 "name":"Name",
-                "email":"E-Mail",
-                "dev":"Organization",
+                "email":"E-mail",
+                "dev":"Company",
                 "msg":"Message",
                 "submit":"Submit",
                 "error":"There was an error sending the message. Please try again later.",
