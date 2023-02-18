@@ -9,9 +9,9 @@
             },
             "cards":{
                 "0":{
-                    "number":"1",
-                    "subtitle":"SEMANA",
-                    "text":"Garantimos que você terá os melhores profissionais em no máximo 7 dias"
+                    "number":"2",
+                    "subtitle":"SEMANAS",
+                    "text":"Garantimos que você terá os melhores profissionais em até 14 dias"
                 },
                 "1":{
                     "number":"3",
@@ -55,15 +55,15 @@
         {
             "locale": "en-US",
             "cover":{
-                "title": "Connecting talents to the games industry",
+                "title": "Simplifying talent acquisition in the games industry",
                 "subtitle": "We find the perfect professional to leverage your game project",
                 "btnText": "Contact us"
             },
             "cards":{
                 "0":{
-                    "number":"1",
-                    "subtitle":"WEEK",
-                    "text":"We guarantee that you will have the best professionals in a maximum of 7 days"
+                    "number":"2",
+                    "subtitle":"WEEKS",
+                    "text":"We guarantee that you will have the best professionals in 14 days"
                 },
                 "1":{
                     "number":"3",
