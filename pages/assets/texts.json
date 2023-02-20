@@ -3,15 +3,15 @@
         {
             "locale": "pt-BR",
             "cover": {
-                "title": "Conectamos talentos a indústria de games",
+                "title": "Simplificamos a aquisição de talentos no mercado de games",
                 "subtitle": "Buscamos de forma personalizada o profissional perfeito para alavancar o projeto do seu game",
                 "btnText": "Entre em contato"
             },
             "cards":{
                 "0":{
-                    "number":"1",
-                    "subtitle":"SEMANA",
-                    "text":"Garantimos que você terá os melhores profissionais em no máximo 7 dias"
+                    "number":"2",
+                    "subtitle":"SEMANAS",
+                    "text":"Garantimos que você terá os melhores profissionais em até 14 dias"
                 },
                 "1":{
                     "number":"3",
@@ -36,8 +36,8 @@
             "contactForm":{
                 "title":"Entre em Contato",
                 "name":"Nome",
-                "email":"E-Mail",
-                "dev":"Desenvolvedora",
+                "email":"E-mail",
+                "dev":"Empresa",
                 "msg":"Mensagem",
                 "submit":"Enviar",
                 "error":"Erro ao enviar a mensagem. Tente novamente mais tarde.",
@@ -55,15 +55,15 @@
         {
             "locale": "en-US",
             "cover":{
-                "title": "Connecting talents to the games industry",
+                "title": "Simplifying talent acquisition in the games industry",
                 "subtitle": "We find the perfect professional to leverage your game project",
                 "btnText": "Contact us"
             },
             "cards":{
                 "0":{
-                    "number":"1",
-                    "subtitle":"WEEK",
-                    "text":"We guarantee that you will have the best professionals in a maximum of 7 days"
+                    "number":"2",
+                    "subtitle":"WEEKS",
+                    "text":"We guarantee that you will have the best professionals in 14 days"
                 },
                 "1":{
                     "number":"3",
@@ -88,8 +88,8 @@
             "contactForm":{
                 "title":"Contact Us",
                 "name":"Name",
-                "email":"E-Mail",
-                "dev":"Organization",
+                "email":"E-mail",
+                "dev":"Company",
                 "msg":"Message",
                 "submit":"Submit",
                 "error":"There was an error sending the message. Please try again later.",
