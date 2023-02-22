@@ -26,7 +26,7 @@ export default function ContactForm () {
         })
 
         // Send the data to the server in JSON format.
-        const endpoint = 'https://us-central1-gamest-br.cloudfunctions.net/TESTsendMailOverHTTP'
+        const endpoint = 'https://us-central1-gamest-br.cloudfunctions.net/sendMailOverHTTP'
 
         // Form the request for sending data to the server.
         const options = {
