@@ -1,0 +1,83 @@
+.sectionArea {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d6d8e3;
+    color: #212427;
+    padding: 1vh 10px 0 4vw;
+    position: relative;
+}
+
+.cardsArea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 4vw;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardImage {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: red;
+    border-radius: 50%;
+    border: #212427 2px solid;
+}
+
+/** Area related to numbers */
+.numbersArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 4vw;
+    margin: 20px 0;
+}
+
+.singleNumberArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/** Area related to the call to actions */
+.actionArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 4vw;
+    margin: 20px 0;
+}
+
+.actionArea .left,.actionArea .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .sectionArea {
+        flex-direction: column;
+    }
+}

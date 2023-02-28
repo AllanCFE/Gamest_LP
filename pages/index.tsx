@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../Components/Navbar/Navbar'
 import Cover from '../Components/Cover/Cover'
-import CardsArea from '../Components/CardsArea/CardsArea'
+import DataArea from '../Components/DataArea/DataArea'
 import Footer from '../Components/Footer/Footer'
 import InovAtiva from '../Components/InovAtiva/InovAtiva'
 import Partners from '../Components/Partners/Partners'
@@ -26,7 +26,7 @@ export default function Home() {
 
         <InovAtiva />
 
-        <CardsArea />
+        <DataArea />
 
         <Partners />
 
