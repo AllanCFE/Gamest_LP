@@ -7,25 +7,19 @@
                 "subtitle": "Buscamos de forma personalizada o profissional perfeito para alavancar o projeto do seu game",
                 "btnText": "Entre em contato"
             },
-            "cards":{
+            "numbersArea":{
                 "0":{
-                    "number":"2",
-                    "subtitle":"SEMANAS",
-                    "text":"Garantimos que você terá os melhores profissionais em até 14 dias"
+                    "head":"+ 12000",
+                    "text":"Candidatos em nossa base de dados"
                 },
                 "1":{
-                    "number":"3",
-                    "subtitle":"PROFISSIONAIS",
-                    "text":"Ofertamos até 3 profissionais que são compatíveis com o perfil da sua vaga"
+                    "head":"14",
+                    "text":"Garantimos os melhores profissionais em até 2 semanas"
                 },
                 "2":{
-                    "number":"90",
-                    "subtitle":"DIAS",
-                    "text":"Por 90 dias garantimos novos candidatos caso a vaga não seja concluída"
-                },
-                "title":"Buscamos os melhores players para o seu projeto",
-                "p1": "Com a Gamest você vai reduzir os custos na busca pelo candidato ideal, otimizar o tempo da sua equipe, permitindo que eles foquem no que realmente é importante.",
-                "p2": "E o melhor, tendo a certeza que uma empresa especializada em game recruiting está por trás de tudo isso."
+                    "head":"3",
+                    "text":"Soluções de recrutamento conforme a sua necessidade"
+                }
             },
             "footbar":{
                 "rights":"© 2023 Gamest - Todos os direitos reservados"
@@ -52,7 +46,27 @@
             },
             "partners": {
                 "title": "Parceiros"
-            }
+            },
+            "cardsArea": {
+                "l1":{
+                    "0": "Animação",
+                    "1": "Arte",
+                    "2": "Áudio",
+                    "3": "Design"
+                },
+                "l2": {
+                    "4": "Produção",
+                    "5": "Programação",
+                    "6": "Qualidade",
+                    "7": "Marketing"
+                }
+            },
+            "actionArea": {
+                "company": "Desejo conhecer mais sobre as soluções da Gamest",
+                "professional": "Estou aberto a novas oportunidades na indústria de games",
+                "companyButton": "Entrar em contato",
+                "professionalButton": "Cadastrar na base de dados"
+            }   
         },
         {
             "locale": "en-US",
@@ -61,25 +75,19 @@
                 "subtitle": "We find the perfect professional to leverage your game project",
                 "btnText": "Contact us"
             },
-            "cards":{
+            "numbersArea":{
                 "0":{
-                    "number":"2",
-                    "subtitle":"WEEKS",
-                    "text":"We guarantee that you will have the best professionals in 14 days"
+                    "head":"+ 12000",
+                    "text":"Candidates in our database"
                 },
                 "1":{
-                    "number":"3",
-                    "subtitle":"PROFESSIONALS",
-                    "text":"We offer up to 3 professionals who are compatible with your vacancy profile"
+                    "head":"14",
+                    "text":"We guarantee that you will have the best professionals in up to 2 weeks"
                 },
                 "2":{
-                    "number":"90",
-                    "subtitle":"DAYS",
-                    "text":"For 90 days we guarantee new candidates if the vacancy is not completed"
-                },
-                "title":"We seek for the best players for your project",
-                "p1": "With Gamest you will reduce costs in the search for the ideal candidate, optimize your team's time, allowing them to focus on what is really important.",
-                "p2": "And the best part? Making sure that a company specialized in game recruiting is behind it all."
+                    "head":"3",
+                    "text":"Recruitment solutions tailored to your needs"
+                }
             },
             "footbar":{
                 "rights":"© 2023 Gamest - All rights reserved"
@@ -106,6 +114,26 @@
             },
             "partners": {
                 "title": "Partners"
+            },
+            "cardsArea": {
+                "l1": {
+                    "0": "Animation",
+                    "1": "Art",
+                    "2": "Audio",
+                    "3": "Design"
+                },
+                "l2": {
+                    "4": "Production",
+                    "5": "Programming",
+                    "6": "Quality Assurance",
+                    "7": "Marketing"
+                }
+            },
+            "actionArea": {
+                "company": "I want to know more about Gamest solutions",
+                "professional": "I am open to new opportunities in the gaming industry",
+                "companyButton": "Get in touch",
+                "professionalButton": "Register in the database"
             }                
         }
     ]
