@@ -1,3 +1,15 @@
+:root {
+  --purple-1: #310438;
+  --purple-2: #490554;
+  --purple-3: #610770;
+  --purple-4: #894594;
+  --purple-5: #B083B8;
+
+  --blue-1: #01081F;
+  --blue-3: #010F3D;
+  --blue-5: #80879E;
+}
+
 html,
 body {
   padding: 0;

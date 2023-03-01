@@ -52,16 +52,16 @@ export default function CardsArea () {
 
             <div className={styles.numbersArea}>
                 <div className={styles.singleNumberArea}>
-                    <span>+ 12000</span>
-                    <span>Candidatos em nossa base de dados</span>
+                    <span className={styles.head}>+ 12000</span>
+                    <span className={styles.content}>Candidatos em nossa base de dados</span>
                 </div>
                 <div className={styles.singleNumberArea}>
-                    <span>+ 12000</span>
-                    <span>Candidatos em nossa base de dados</span>
+                    <span className={styles.head}>14</span>
+                    <span className={styles.content}>Garantimos os melhores profissionais em até 2 semanas</span>
                 </div>
                 <div className={styles.singleNumberArea}>
-                    <span>+ 12000</span>
-                    <span>Candidatos em nossa base de dados</span>
+                    <span className={styles.head}>3</span>
+                    <span className={styles.content}>Soluções de recrutamento conforme a sua necessidade</span>
                 </div>
             </div>
 
