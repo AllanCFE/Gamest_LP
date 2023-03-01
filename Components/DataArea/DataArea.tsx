@@ -67,11 +67,14 @@ export default function CardsArea () {
 
             <div className={styles.actionArea}>
                 <div className={styles.left}>
-                    <span>Desejo conhecer mais sobre as soluções da Gamest</span>
+                    <h4>Desejo conhecer mais sobre as soluções da Gamest</h4>
                     <span>Entrar em contato</span>
                 </div>
+
+                <div className={styles.verticalBar}><span style={{visibility: "hidden"}}>AAA</span></div>
+                
                 <div className={styles.right}>
-                    <span>Estou aberto a novas oportunidades na indústria de games</span>
+                    <h4>Estou aberto a novas oportunidades na indústria de games</h4>
                     <span>Cadastrar na base dados</span>
                 </div>
             </div>

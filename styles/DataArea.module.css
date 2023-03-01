@@ -28,6 +28,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    color: var(--purple-3);
 }
 
 .cardImage {
@@ -37,9 +38,9 @@
     justify-content: center;
     align-items: center;
 
-    background-color: red;
+    background-color: var(--content-background-color);
     border-radius: 50%;
-    border: #212427 2px solid;
+    border: var(--purple-3) 3px solid;
 }
 
 /** Area related to numbers */
@@ -65,7 +66,7 @@
 .singleNumberArea .head {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #580664;
+    color: var(--purple-3);
     font-family: MontserratArabic;
 }
 
@@ -75,6 +76,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+    height: 100%;
+    position: relative;
     padding: 0 4vw;
     margin: 20px 0;
 }
@@ -84,6 +87,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.verticalBar {
+    width: 1px;
+    border: #212427 1px solid;
 }
 
 @media (max-width: 600px) {
