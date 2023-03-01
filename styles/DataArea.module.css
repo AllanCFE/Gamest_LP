@@ -131,4 +131,27 @@
     .sectionArea {
         flex-direction: column;
     }
+
+    .cardImage {
+        width: 60px;
+        height: 60px;
+    }
+
+    .cardImage img {
+        object-fit: contain;
+        scale: 0.45;
+    }
+
+    .actionArea .left,.actionArea .right {
+        justify-content: space-around;
+    }
+    
+    .buttonAction {
+        width: 100%;
+        min-height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
