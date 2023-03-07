@@ -132,6 +132,11 @@
         flex-direction: column;
     }
 
+    .card {
+        width: 10%;
+        font-size: 0.8rem;
+    }
+
     .cardImage {
         width: 60px;
         height: 60px;
@@ -153,5 +158,19 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .numbersArea {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .singleNumberArea {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .actionArea h4 {
+        font-size: 0.9rem;
     }
 }
