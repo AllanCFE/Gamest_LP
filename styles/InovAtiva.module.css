@@ -16,7 +16,6 @@
 .trophy {
     width: 30%;
     display: flex;
-    filter: invert(0.9);
 }
 
 .invert {
