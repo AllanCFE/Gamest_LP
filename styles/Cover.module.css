@@ -61,7 +61,9 @@
 @media (max-width: 850px) {
     .secondColumn{
         width: 0;
-    }
+        display: none;
+        visibility: hidden;
+    }   
 
     .firstColumn {
         width: 100%;

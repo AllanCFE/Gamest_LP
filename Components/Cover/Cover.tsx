@@ -25,7 +25,7 @@ export default function Cover () {
                         {/** 1a linha, para o título, contendo 2 colunas */}
                         <div className={[styles.horizontalSplit, styles.line, styles.verticalAlign].join(" ")}>
                             {/** Controle esquerdo */}
-                            <div style={{width: "7%", minWidth: "32px"}}> 
+                            <div style={{width: "3rem", minWidth: "32px"}}> 
                                 <Image alt="Left Control" src={LControl} layout="responsive" width={480} height={1024} />
                             </div>
                             {/** Título */}
@@ -40,7 +40,7 @@ export default function Cover () {
                                 <h2>{txts[0].cover.subtitle}</h2>
                             </div>
                             {/** Controle direito */}
-                            <div style={{width: "9%", minWidth: "30px"}}>
+                            <div style={{width: "4rem", minWidth: "30px"}}>
                                 <Image alt="Right Control" src={RControl}  layout="responsive" width={480} height={1024}/>
                             </div>
                         </div>
