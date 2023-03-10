@@ -16,7 +16,7 @@ function Partners () {
             <div className={styles.rowContainer}>
                 <div className={styles.row}>
                     {Object.keys(partners).map((key) => {
-                        if (parseInt(key) < 6) return (
+                        if (parseInt(key) < 7) return (
                             <div key={key} className={styles.holder}>
                                 <ImageLink key={key} className={styles.image} src={partners[key].src} width={100} height={100} href={partners[key].link}/>
                             </div>
@@ -24,9 +24,9 @@ function Partners () {
                     })}
                 </div>
                 
-                <div className={styles.row}>
+                <div className={styles.row} style={{padding: "0 calc(5vw + 1rem)"}}>
                     {Object.keys(partners).map((key) => {
-                        if (parseInt(key) >= 6) return (
+                        if (parseInt(key) >= 7) return (
                             <div key={key} className={styles.holder}>
                                 <ImageLink key={key} className={styles.image} src={partners[key].src} width={100} height={100} href={partners[key].link}/>
                             </div>

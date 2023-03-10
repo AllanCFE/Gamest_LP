@@ -5,6 +5,7 @@
     left: 0;
     right: 0;
     height: 10vh;
+    min-height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;

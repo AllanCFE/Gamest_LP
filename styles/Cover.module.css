@@ -56,12 +56,15 @@
     padding-right: 2vw;
     text-align: right;
     margin-left: 10vw;
+    color: darkgrey;
 }
 
 @media (max-width: 850px) {
     .secondColumn{
         width: 0;
-    }
+        display: none;
+        visibility: hidden;
+    }   
 
     .firstColumn {
         width: 100%;

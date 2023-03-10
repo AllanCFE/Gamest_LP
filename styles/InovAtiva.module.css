@@ -14,9 +14,15 @@
 }
 
 .trophy {
-    width: 30%;
+    width: 600px;
+    max-width: 20rem;
     display: flex;
-    filter: invert(0.9);
+}
+
+.trophy img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .invert {
