@@ -1,6 +1,7 @@
 import styles from '../../styles/CardsArea.module.css'
 import { useRouter } from 'next/router';
 import localeAssets from '../../pages/assets/texts.json'
+import Image from 'next/image'
 
 export default function CardsArea () {
 
@@ -10,69 +11,20 @@ export default function CardsArea () {
 
     return (
         <div className={[styles.sectionArea].join(" ")}>
-            {/** Coluna 1 - Título e texto */}
-            <div className={[styles.textArea, styles.marginText].join(" ")}>
-                {/** Cabeçalho */}
-                <div>
-                    {/** Subtítulo */}
-                    <div>
-                        <h3>{txts[0].cards.title}</h3>
-                    </div>
-                </div>
-
-                {/** Texto */}
-                <div style={{textAlign: "justify"}}>
-                <p>
-                    {txts[0].cards.p1}
-                </p>
-                <p>
-                {txts[0].cards.p2}
-                </p>
+            <div className={`${styles.stripe} ${styles.leftStripe}`}></div>
+            <div className={[styles.holder].join(" ")}>
+                <span className={styles.leftContent}>
+                    <Image src="/PlayerBT.svg" alt="Logo" width={60} height={60} />
+                </span>
+                <span className={styles.rightContent}>
+                    DESEJO CONHECER MAIS SOLUÇÕES DA GAMEST PARA MINHA EMPRESA
+                </span>
+                <div className={styles.actionButton}>
+                    <span className={styles.actionText}>CLIQUE AQUI</span>
+                    <span className={styles.playIcon}></span>
                 </div>
             </div>
-            {/** Coluna 2 - Cards */}
-            <div className={[styles.cardsArea].join(" ")}>
-                {/** Card 1 */}
-                <div className={[styles.card].join(" ")}>
-                    <div className={[styles.cardHead].join(" ")}>
-                        <div className={[styles.cardTitle].join(" ")}>
-                            {txts[0].cards[0].number}
-                        </div>
-                        <div className={[styles.cardSubTitle].join(" ")}>
-                            {txts[0].cards[0].subtitle}
-                        </div>
-                    </div>
-                    <div className={[styles.cardContent].join(" ")}>
-                        {txts[0].cards[0].text}
-                    </div>
-                </div>
-
-                {/** Card 2 */}
-                <div className={[styles.card].join(" ")}>
-                    <div className={[styles.cardHead].join(" ")}>
-                        <div className={[styles.cardTitle].join(" ")}>
-                            {txts[0].cards[1].number}
-                        </div>
-                        <div className={[styles.cardSubTitle].join(" ")}>
-                            {txts[0].cards[1].subtitle}
-                        </div>
-                    </div>
-                    <div className={[styles.cardContent].join(" ")}>
-                        {txts[0].cards[1].text}
-                    </div>
-                </div>
-                
-                {/** Card 3 */}
-                <div className={[styles.card].join(" ")}>
-                    <div className={[styles.cardHead].join(" ")}>
-                        <div className={[styles.cardTitle].join(" ")}>{txts[0].cards[2].number}</div>
-                        <div className={[styles.cardSubTitle].join(" ")}>{txts[0].cards[2].subtitle}</div>
-                    </div>
-                    <div className={[styles.cardContent].join(" ")}>
-                        {txts[0].cards[2].text}
-                    </div>
-                </div>
-            </div>
+            <div className={`${styles.stripe} ${styles.rightStripe}`}></div>
         </div>
     )
 }
