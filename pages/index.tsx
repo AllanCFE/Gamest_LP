@@ -24,9 +24,9 @@ export default function Home() {
 
         <Cover />
 
-        <InovAtiva />
-
         <CardsArea />
+
+        <InovAtiva />
 
         <Partners />
 
