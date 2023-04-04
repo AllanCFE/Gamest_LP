@@ -1,0 +1,67 @@
+.wrap {
+    position: relative;
+    overflow: hidden;
+    margin-top: 10vh;
+    padding-bottom: 4vh;
+    width: 100vw;
+    height: 650px;
+    background-image: url(../public/NewCover/Banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.content {
+    position: relative;
+    margin: 0 0 0 100px;
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.titleDiv {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.titleText {
+    font-weight: bolder;  
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.titleText h1 {
+    font-size: 2.5rem;
+}
+
+.titleHighlight {
+    color: #d32196;
+}
+
+.subtitleDiv {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.subtitleText {
+    margin-left: 100px;
+    margin-right: 10px;
+    font-size: 1.45rem;
+    font-weight: bolder;
+}
+
+.rightControl {
+    margin-top: 30px;
+}
