@@ -55,7 +55,7 @@
 .leftStripe {
     position: absolute;
     top: calc(calc(20px + 1vh) / 2);
-    left: 0;
+    left: -5px;
     min-width: 31%;
     min-height: 35px;
     border-radius: 10px 0 0 10px;
@@ -65,7 +65,7 @@
 .rightStripe {
     position: absolute;
     bottom: 24px;
-    right: 0;
+    right: -10px;
     width: 40%;
     height: 35px;
     border-radius: 0 10px 10px 0;
