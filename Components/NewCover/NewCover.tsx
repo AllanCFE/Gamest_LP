@@ -10,7 +10,7 @@ import BackCover from '../../public/NewCover/Banner.png'
 export default function NewCover () {
     const { locale } = useRouter();
     const txts = localeAssets.front_page.filter(t => t.locale == locale);
-
+    console.log(txts)
     return (
         <div className={styles.wrap}>
             <div className={styles.content}>
@@ -19,12 +19,12 @@ export default function NewCover () {
                         <Image alt="Left Control" src={LControl} width={90} height={173} />
                     </span>
                     <span className={styles.titleText}>
-                        <h1>SIMPLIFICAMOS A <span className={styles.titleHighlight}>AQUISIÇÃO DE TALENTOS</span> NO MERCADO DE GAMES</h1>
+                        <h1>{txts[0].cover.title1} <span className={styles.titleHighlight}> {txts[0].cover.titleHighlight}</span> {txts[0].cover.title2}</h1>
                     </span>
                 </div>
                 <div className={styles.subtitleDiv}>
                     <span className={styles.subtitleText}>
-                        <p>Buscamos de forma personalizada o profissional perfeito para alavancar o seu projeto de game.</p>
+                        <p>{txts[0].cover.subtitle}</p>
                     </span>
                     <span className={styles.rightControl}>
                         <Image alt="Right Control" src={RControl} width={90} height={173} />

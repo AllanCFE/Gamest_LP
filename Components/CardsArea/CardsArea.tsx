@@ -17,10 +17,10 @@ export default function CardsArea () {
                     <Image src="/PlayerBT.svg" alt="Logo" width={60} height={60} />
                 </span>
                 <span className={styles.rightContent}>
-                    DESEJO CONHECER MAIS SOLUÇÕES DA GAMEST PARA MINHA EMPRESA
+                    {txts[0].cards.text}
                 </span>
                 <div className={styles.actionButton}>
-                    <span className={styles.actionText}>CLIQUE AQUI</span>
+                    <span className={styles.actionText}>{txts[0].cards.button}</span>
                     <span className={styles.playIcon}></span>
                 </div>
             </div>
