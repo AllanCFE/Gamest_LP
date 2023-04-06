@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../Components/Navbar/Navbar'
-import Cover from '../Components/Cover/Cover'
+import NewCover from '../Components/NewCover/NewCover'
 import CardsArea from '../Components/CardsArea/CardsArea'
 import Footer from '../Components/Footer/Footer'
 import InovAtiva from '../Components/InovAtiva/InovAtiva'
@@ -22,11 +22,11 @@ export default function Home() {
       
         <Navbar />
 
-        <Cover />
-
-        <InovAtiva />
+        <NewCover />
 
         <CardsArea />
+
+        <InovAtiva />
 
         <Partners />
 

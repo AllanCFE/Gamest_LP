@@ -5,7 +5,7 @@ import localeAssets from "../../pages/assets/texts.json"
 import noLocaleAssets from "../../pages/assets/nolocale.json"
 import { useRouter } from "next/router";
 import ImageLink from "../ImageLink/ImageLink";
-import Trophy from "../../public/Components/InovAtiva/trophy.png"
+import Trophy from "../../public/Components/InovAtiva/podium.png"
 
 export default function InovAtiva () {
     const { locale } = useRouter();
@@ -17,14 +17,11 @@ export default function InovAtiva () {
     
             <div className={[styles.container].join(" ")}>
                 <div className={[styles.trophy, styles.centralize].join(" ")}>
-                    <Image alt="Trophy" className={styles.centralize} src={Trophy} width={600} height={600} style={{objectFit: "contain", maxHeight: "17vw", maxWidth: "17vw"}} />
+                    <Image alt="Trophy" className={styles.centralize} src={Trophy} width={600} height={600} />
                 </div>
                 <div className={styles.textContainer}>
                     <div>
                         <h2> {lAssets.title} </h2>
-                    </div>
-                    <div>
-                        <p> {lAssets.text} </p>
                     </div>
                     <div className={[styles.flex].join(" ")}>
                         <div className={styles.centralize}>
