@@ -7,6 +7,7 @@ import Footer from '../Components/Footer/Footer'
 import InovAtiva from '../Components/InovAtiva/InovAtiva'
 import Partners from '../Components/Partners/Partners'
 import CardsArea from '../Components/CardsArea/CardsArea'
+import CTA_Company from '../Components/CTA_Company/CTA_Company'
 
 export default function Home() {
   
@@ -23,6 +24,8 @@ export default function Home() {
         <Navbar />
 
         <NewCover />
+
+        <CTA_Company />
 
         <InovAtiva />
 
