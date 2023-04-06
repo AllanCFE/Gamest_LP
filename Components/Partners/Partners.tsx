@@ -12,7 +12,7 @@ function Partners () {
 
     return (
         <div className={styles.container}>
-            <div><h1 className={styles.title}>{partnersText}</h1></div>
+            <div><h2 className={styles.title}>{partnersText}</h2></div>
             <div className={styles.rowContainer}>
                 <div className={styles.row}>
                     {Object.keys(partners).map((key) => {

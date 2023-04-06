@@ -28,6 +28,8 @@ export default function Home() {
 
         <InovAtiva />
 
+        <Partners />
+
         <Footer />
       </main>
     </div>
