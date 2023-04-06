@@ -31,6 +31,9 @@ export default function NewCover () {
                     </span>
                 </div>
             </div>
+            <div className={styles.backCover}>
+                <Image src={BackCover} alt="Back Cover"/>
+            </div>
         </div>
     )
 }
