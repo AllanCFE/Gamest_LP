@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 4vw 0 4vw;
-    background-color: #310438;
+    background-color: #00063c;
 }
 
 .smLogos {
@@ -28,7 +28,7 @@
 }
 
 .footerRight{
-    color: white;
+    color: #fff;
 }
 
 @media (max-width: 600px) {

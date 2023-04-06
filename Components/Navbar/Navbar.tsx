@@ -15,11 +15,16 @@ export default function Navbar() {
         <nav className={styles.navbar}>
             <div className={styles.nav_left}>
                 <Link href='/'>
-                    <Image alt="Logo Gamest" src={GamestLogo} width={866} height={179} style={{objectFit: "contain", maxWidth: "14vw"}}/>                   
+                    <Image alt="Logo Gamest" src={GamestLogo} width={866} height={179} style={{objectFit: "contain", maxWidth: "10vw"}}/>                   
                 </Link>
             </div>
             <div className={styles.nav_right}>
-                <div>
+                <div className={styles.nav_link}>
+                    <Link href="contact">
+                        {txts[0].navbar.contact}
+                    </Link>
+                </div>
+                <div className={styles.flagsArea}>
                     {locales.map((l, i) => {
                         return (
                             
@@ -28,11 +33,6 @@ export default function Navbar() {
                                 </Link>
                         );
                     })}
-                </div>
-                <div className={styles.navLink}>
-                    <Link href="contact">
-                        {txts[0].navbar.contact}
-                    </Link>
                 </div>
             </div>
         </nav>

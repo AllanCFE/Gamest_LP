@@ -1,8 +1,8 @@
 .container {
     width: 100vw;
-    padding: 2vh 10px 0 4vw;
-    background-color: #d6d8e3;
-    color: #212427;
+    padding: 50px 10px 50px 4vw;
+    background-color: #fff;
+    color: #00063c;
 }
 
 .row {
@@ -26,7 +26,10 @@
 
 .title {
     margin: 0;
-    font-size: 2rem;
+    padding-bottom: 25px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .rowContainer {
