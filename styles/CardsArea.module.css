@@ -113,4 +113,34 @@
     .sectionArea {
         flex-direction: column;
     }
+
+    .holder {
+        width: 90vw;
+        height: 110px;
+        margin: 20px 0;
+        font-size: 1.1rem;
+    }
+
+    .leftContent img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .actionButton {
+        width: 130px;
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .playIcon {
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 14px solid #d32196;
+        top: auto;
+        right: 10px;
+    }
+
+    .leftStripe {
+        min-width: 20%;
+    }
 }

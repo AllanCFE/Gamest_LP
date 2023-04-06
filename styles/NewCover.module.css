@@ -65,3 +65,46 @@
 .rightControl {
     margin-top: 30px;
 }
+
+@media (max-width: 800px) {
+    .wrap {
+        height: 500px;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content {
+        margin: 20px 0 0 20px;
+        width: 80vw;
+        height: max-content;
+        background-color: #00000080;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .titleText {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .titleText h1 {
+        font-size: 1.5rem;
+    }
+
+    .leftControl img, .rightControl img {
+        width: 45px;
+        height: 86px;
+    }
+
+    .subtitleText {
+        margin-left: 55px;
+        margin-right: 10px;
+        font-size: 1.1rem;
+    }
+
+    .rightControl {
+        margin-top: 20px;
+    }
+}

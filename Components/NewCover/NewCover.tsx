@@ -10,7 +10,7 @@ import BackCover from '../../public/NewCover/Banner.png'
 export default function NewCover () {
     const { locale } = useRouter();
     const txts = localeAssets.front_page.filter(t => t.locale == locale);
-    console.log(txts)
+    
     return (
         <div className={styles.wrap}>
             <div className={styles.content}>

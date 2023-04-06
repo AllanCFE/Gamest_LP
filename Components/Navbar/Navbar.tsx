@@ -24,7 +24,7 @@ export default function Navbar() {
                         {txts[0].navbar.contact}
                     </Link>
                 </div>
-                <div>
+                <div className={styles.flagsArea}>
                     {locales.map((l, i) => {
                         return (
                             

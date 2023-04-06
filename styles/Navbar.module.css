@@ -39,20 +39,34 @@
     font-size: 0.9rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .navbar {
     height: 5vh;
+    max-height: 50px;
   }
 
   .nav_left {
-    width: 15%;
-    min-width: 100px;
-    min-height: 20.65px;
+    width: 25%;
+    min-width: auto;
+    height: 4vh;
   }
 
-  .nav_link  {
-    width: 0;
-    margin-left: 0;
-    font-size: 0;
+
+  .nav_left a img {
+    height: 4vh !important;
+    min-height: 30px;
+    max-height: auto;
+    object-fit: cover;
+    min-width: 25vw;
+  }
+
+  .flagsArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .flagsArea a {
+    display: flex;
   }
 }
