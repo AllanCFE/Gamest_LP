@@ -28,7 +28,6 @@ export default function CardsArea () {
                     </p>
 
                 </div>
-                <div className={`${styles.stripe} ${styles.stripeDown}`}></div>
             </div>
             <div className={styles.cardsArea}>
                 <div className={styles.card}>
@@ -71,6 +70,7 @@ export default function CardsArea () {
                     </div>
                 </div>
             </div>
+            <div className={`${styles.stripe} ${styles.stripeDown}`}></div>
             <div className={styles.backImage}>
                 <Image src={Banner} alt="Banner" width={1920} height={505} />
             </div>

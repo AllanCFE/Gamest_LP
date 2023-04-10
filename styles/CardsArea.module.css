@@ -34,7 +34,7 @@
 
 .stripeDown {
     height: 40px;
-    margin-top: 485.8px;
+    margin-top: calc(505px - 270px);
 }
 
 .topText {
@@ -72,8 +72,9 @@
 .cardsArea {
     position: absolute;
     top: calc(514px - 150px);
-    left: 0;
-    width: 1000px;
+    left: auto;
+    right: auto;
+    width: 100vw;
     height: 300px;
     display: flex;
     flex-direction: row;
