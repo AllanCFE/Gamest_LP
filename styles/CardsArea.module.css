@@ -2,4 +2,6 @@
     background: #00063c;
     color: #fff;
     width: 100vw;
+    display: none;
+    visibility: hidden;
 }
