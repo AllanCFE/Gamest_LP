@@ -120,4 +120,9 @@
     .rightControl {
         margin-top: 20px;
     }
+
+    .backCover img {
+        object-position: 60% 50%;
+        filter: brightness(0.6) contrast(0.9);
+    }
 }
