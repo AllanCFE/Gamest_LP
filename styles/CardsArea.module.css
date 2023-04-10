@@ -121,6 +121,12 @@
 @media (max-width: 800px) {
     .sectionArea {
         margin-bottom: 20px;
+        height: 275px;
+    }
+
+    .stripeDown {
+        display: none;
+        visibility: hidden;
     }
 
     .topText {
@@ -130,6 +136,10 @@
     .bottomText {
         width: 90%;
         font-size: 0.9rem;
+    }
+
+    .cardsArea {
+        top: 150px;
     }
 
     .card {
