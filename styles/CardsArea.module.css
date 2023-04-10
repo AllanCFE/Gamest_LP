@@ -119,6 +119,10 @@
 }
 
 @media (max-width: 800px) {
+    .sectionArea {
+        margin-bottom: 20px;
+    }
+
     .topText {
         margin-top: 20px;
         width: 90%;
