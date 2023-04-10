@@ -1,5 +1,117 @@
 .sectionArea {
-    background: #00063c;
+    position: relative;
+    background: #fff;
     color: #fff;
     width: 100vw;
+    height: 550px;
+    margin-bottom: 150px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 2;
+}
+
+.stripe {
+    background: repeating-linear-gradient(
+        315deg,
+        transparent,
+        transparent 1px,
+        #000 2px,
+        #000 1px
+    );
+    width: 100vw;
+    z-index: 2;
+}
+
+.stripeTop {
+    height: 10px;
+}
+
+.stripeDown {
+    height: 40px;
+    margin-top: 485.8px;
+}
+
+.topText {
+    z-index: 2;
+    text-transform: uppercase;
+    margin-top: 80px;
+    width: 450px;
+    text-align: center;
+}
+
+.highlight {
+    color: #d32196;
+}
+
+.bottomText {
+    z-index: 2;
+    width: 700px;
+    text-align: center;
+}
+
+.backImage {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100vw;
+    z-index: 0;
+}
+
+.backImage img {
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.cardsArea {
+    position: absolute;
+    top: calc(514px - 150px);
+    left: 0;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+.card {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    background-color: #d32196;
+}
+
+.cardImage {
+    height: 100px;
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    z-index: 4;
+}
+
+.cardText h3 {
+    color: #00063c;
+}
+
+.cardText p {
+    margin: 0;
 }
