@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../Components/Navbar/Navbar'
 import NewCover from '../Components/NewCover/NewCover'
@@ -8,6 +7,7 @@ import InovAtiva from '../Components/InovAtiva/InovAtiva'
 import Partners from '../Components/Partners/Partners'
 import CardsArea from '../Components/CardsArea/CardsArea'
 import CTA_Company from '../Components/CTA_Company/CTA_Company'
+import CTA_User from '../Components/CTA_User/CTA_User'
 
 export default function Home() {
   
@@ -30,6 +30,8 @@ export default function Home() {
         <InovAtiva />
 
         <CardsArea />
+
+        <CTA_User />
 
         <Partners />
 

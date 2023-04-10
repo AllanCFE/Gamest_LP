@@ -4,6 +4,8 @@ import localeAssets from '../../pages/assets/texts.json'
 import Image from 'next/image'
 import Link from 'next/link';
 
+import PlayerBT from '../../public/PlayerBT.svg';
+
 export default function CTA_Company () {
 
     const { locale } = useRouter();
@@ -15,7 +17,7 @@ export default function CTA_Company () {
             <div className={`${styles.stripe} ${styles.leftStripe}`}></div>
             <div className={[styles.holder].join(" ")}>
                 <span className={styles.leftContent}>
-                    <Image src="/PlayerBT.svg" alt="Logo" width={60} height={60} />
+                    <Image src={PlayerBT} alt="Logo" width={60} height={60} />
                 </span>
                 <span className={styles.rightContent}>
                     {txts[0].cards.text}
