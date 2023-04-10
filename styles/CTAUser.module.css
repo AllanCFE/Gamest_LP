@@ -15,6 +15,7 @@
     min-width: 400px;
     z-index: 2;
     margin-top: 150px;
+    color: #00063c;
 }
 
 .titleTop {
@@ -55,6 +56,10 @@
     justify-content: space-around;
     align-items: flex-start;
     filter: drop-shadow(5px 5px 0 #00063c);
+}
+
+.leftContent img {
+    filter: invert(37%) sepia(71%) saturate(6730%) hue-rotate(303deg) brightness(84%) contrast(96%);
 }
 
 .rightContent {
