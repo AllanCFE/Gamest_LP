@@ -117,3 +117,38 @@
 .cardText p {
     margin: 0;
 }
+
+@media (max-width: 800px) {
+    .topText {
+        margin-top: 20px;
+        width: 90%;
+    }
+    .bottomText {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .card {
+        width: 120px;
+        height: 110px;
+        justify-content: space-around;
+    }
+
+    .cardImage {
+        height: 50px;
+        width: 50px;
+    }
+
+    .cardImage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card h3 {
+        font-size: 0.9rem;
+    }
+
+    .cardText p {
+        display: none;
+    }
+}
