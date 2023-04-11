@@ -20,11 +20,11 @@ export default function CTA_Company () {
                     <Image src={PlayerBT} alt="Logo" width={60} height={60} />
                 </span>
                 <span className={styles.rightContent}>
-                    {txts[0].cards.text}
+                    {txts[0].cta_company.text}
                 </span>
                 <Link href={'/contact'}>
                     <div className={styles.actionButton}>
-                        <span className={styles.actionText}>{txts[0].cards.button}</span>
+                        <span className={styles.actionText}>{txts[0].cta_company.button}</span>
                         <span className={styles.playIcon}></span>
                     </div>
                 </Link>

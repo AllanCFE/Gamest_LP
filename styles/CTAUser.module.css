@@ -92,7 +92,7 @@
 
 .actionText {
     position: relative;
-
+    text-transform: uppercase;
 }
 
 .playIcon {

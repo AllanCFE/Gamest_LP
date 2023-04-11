@@ -112,6 +112,7 @@
 
 .cardText h3 {
     color: #00063c;
+    text-transform: uppercase;
 }
 
 .cardText p {

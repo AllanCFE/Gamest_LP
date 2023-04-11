@@ -11,19 +11,19 @@ export default function CTA_User () {
 
     const { locale } = useRouter();
 
-    const txts = localeAssets.front_page.filter(t => t.locale == locale)
+    const txts = localeAssets.front_page.filter(t => t.locale == locale)[0]
 
     return (
         <div className={[styles.sectionArea].join(" ")}>
             <div className={styles.textTop}>
                 <span className={styles.titleTop}>
                     <h2>
-                        Esta área é para <span className={styles.textHighlight}>você que quer encontrar oportunidades</span> na indústria de games
+                        {txts.cta_user.title1} <span className={styles.textHighlight}>{txts.cta_user.titleHighlight}</span> {txts.cta_user.title2}
                     </h2>
                 </span>
                 <span className={styles.paragraphTop}>
                     <p>
-                        Se você é designer e adora criar, ou é programador e adora desenvolver, ou prefere atuar gerenciando um time dinâmico e criativo, ou é daqueles que gostam de contar histórias, então cadastre-se no nosso banco de dados. A Gamest vai te ajudar a encontrar uma oportunidade ideal no mercado.
+                        {txts.cta_user.p}
                     </p>
                 </span>
             </div>
@@ -32,11 +32,11 @@ export default function CTA_User () {
                     <Image src={PlayerBT} alt="Logo" width={60} height={60} />
                 </span>
                 <span className={styles.rightContent}>
-                    Estou aberto a novas oportunidades na indústria de games
+                    {txts.cta_user.holderText}
                 </span>
                 <Link href={'/contact'}>
                     <div className={styles.actionButton}>
-                        <span className={styles.actionText}>QUERO ME CADASTRAR</span>
+                        <span className={styles.actionText}>{txts.cta_user.button}</span>
                         <span className={styles.playIcon}></span>
                     </div>
                 </Link>

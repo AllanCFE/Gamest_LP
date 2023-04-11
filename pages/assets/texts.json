@@ -9,7 +9,7 @@
                 "subtitle": "Buscamos de forma personalizada o profissional perfeito para alavancar o projeto do seu game",
                 "btnText": "Entre em contato"
             },
-            "cards":{
+            "cta_company":{
                 "text": "DESEJO CONHECER MAIS SOLUÇÕES DA GAMEST PARA MINHA EMPRESA",
                 "button": "CLIQUE AQUI"
             },
@@ -38,6 +38,33 @@
             },
             "partners": {
                 "title": "Parceiros"
+            },
+            "cardsArea" : {
+                "title1": "Buscamos os",
+                "titleHighlight": "melhores players",
+                "title2": "para o seu projeto",
+                "p1": "Com a Gamest você vai reduzir os custos na busca pelo candidato ideal, otimizar o tempo da sua equipe, permitindo que ela foque no que realmente importa.",
+                "p2": "E o melhor, tenho a certeza que uma empresa especializada em game recruitment está por trás de tudo isso.",
+                "card1": {
+                    "title": "2 semanas",
+                    "subtitle": "Garantimos que você terá os melhores profissionais em até 14 dias"
+                },
+                "card2": {
+                    "title": "3 profissionais",
+                    "subtitle": "Ofertamos até 3 profissionais que são compatíveis com o perfil da sua vaga"
+                },
+                "card3": {
+                    "title": "90 dias",
+                    "subtitle": "Por 90 dias garantimos novos candidatos caso a vaga não seja concluída"
+                }
+            },
+            "cta_user": {
+                "title1": "Esta área é para",
+                "titleHighlight": "você que quer encontrar oportunidades",
+                "title2": "na indústria de games",
+                "p": "Se você é designer e adora criar, ou é programador e adora desenvolver, ou prefere atuar gerenciando um time dinâmico e criativo, ou é daqueles que gostam de contar histórias, então cadastre-se no nosso banco de dados. A Gamest vai te ajudar a encontrar uma oportunidade ideal no mercado.",
+                "holderText": "Estou aberto a novas oportunidades na indústria de games",
+                "button": "Quero me cadastrar"
             }
         },
         {
@@ -49,7 +76,7 @@
                 "subtitle": "We find the perfect professional to leverage your game project",
                 "btnText": "Contact us"
             },
-            "cards":{
+            "cta_company":{
                 "text": "I WANT TO KNOW MORE GAMEST SOLUTIONS FOR MY COMPANY",
                 "button": "CLICK HERE"
             },
@@ -78,7 +105,34 @@
             },
             "partners": {
                 "title": "Partners"
-            }                
+            },
+            "cardsArea" : {
+                "title1": "We find the",
+                "titleHighlight": "best players",
+                "title2": "for your project",
+                "p1": "With Gamest you will reduce the costs in the search for the ideal candidate, optimize the time of your team, allowing it to focus on what really matters.",
+                "p2": "And the best, being sure that a company specialized in game recruitment is behind all this.",
+                "card1": {
+                    "title": "2 weeks",
+                    "subtitle": "We guarantee that you will have the best professionals in up to 14 days"
+                },
+                "card2": {
+                    "title": "3 professionals",
+                    "subtitle": "We offer up to 3 professionals that are compatible with the profile of your vacancy"
+                },
+                "card3": {
+                    "title": "90 days",
+                    "subtitle": "For 90 days we guarantee new candidates if the vacancy is not completed"
+                }
+            },
+            "cta_user": {
+                "title1": "This section is for",
+                "titleHighlight": "you who want to find opportunities",
+                "title2": "in the gaming industry",
+                "p": "If you are a designer and love to create, or a programmer and love to develop, or prefer to act managing a dynamic and creative team, or are those who like to tell stories, then register in our database. Gamest will help you find an ideal opportunity in the market.",
+                "holderText": "I am open to new opportunities in the gaming industry",
+                "button": "I want to register"
+            }
         }
     ]
 }

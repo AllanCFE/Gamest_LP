@@ -10,23 +10,18 @@ import Card3img from '../../public/Cards/Card3.svg'
 
 export default function CardsArea () {
     const { locale } = useRouter();
-    const txts = localeAssets.front_page.filter(t => t.locale == locale)
+    const txts = localeAssets.front_page.filter(t => t.locale == locale)[0]
     
     return (
         <div className={styles.sectionArea}>
             <div className={styles.content}>
                 <div className={`${styles.stripe} ${styles.stripeTop}`}></div>
                 <div className={styles.topText}>
-                    <h2>Buscamos os <span className={styles.highlight}>melhores players</span> para o seu projeto</h2>
+                    <h2>{txts.cardsArea.title1} <span className={styles.highlight}>{txts.cardsArea.titleHighlight}</span> {txts.cardsArea.title2}</h2>
                 </div>
                 <div className={styles.bottomText}>
-                    <p>
-                        Com a Gamest você vai reduzir os custos na busca pelo candidato ideal, otimizar o tempo da sua equipe, permitindo que ela foque no que realmente importa.
-                    </p>
-                    <p>
-                        E o melhor, tenho a certeza que uma empresa especializada em game recruitment está por trás de tudo isso.
-                    </p>
-
+                    <p>{txts.cardsArea.p1}</p>
+                    <p>{txts.cardsArea.p2}</p>
                 </div>
             </div>
             <div className={styles.cardsArea}>
@@ -35,12 +30,8 @@ export default function CardsArea () {
                         <Image src={Card1img} alt="Logo" width={100} height={100} />
                     </div>
                     <div className={styles.cardText}>
-                        <h3>
-                            2 SEMANAS
-                        </h3>
-                        <p>
-                            Garantimos que você terá os melhores profissionais em até 14 dias
-                        </p>
+                        <h3>{txts.cardsArea.card1.title}</h3>
+                        <p>{txts.cardsArea.card1.subtitle}</p>
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -48,12 +39,8 @@ export default function CardsArea () {
                         <Image src={Card2img} alt="Logo" width={100} height={100} />
                     </div>
                     <div className={styles.cardText}>
-                        <h3>
-                            3 PROFISSIONAIS
-                        </h3>
-                        <p>
-                            Ófertamos até 3 profissionais que são compatíveis com o perfil da sua vaga
-                        </p>
+                        <h3>{txts.cardsArea.card2.title}</h3>
+                        <p>{ txts.cardsArea.card2.subtitle }</p>
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -61,12 +48,8 @@ export default function CardsArea () {
                         <Image src={Card3img} alt="Logo" width={100} height={100} />
                     </div>
                     <div className={styles.cardText}>
-                        <h3>
-                            90 DIAS
-                        </h3>
-                        <p>
-                            Por 90 dias garantimos novos candidatos caso a vaga não seja concluída
-                        </p>
+                        <h3>{txts.cardsArea.card3.title}</h3>
+                        <p>{txts.cardsArea.card3.subtitle}</p>
                     </div>
                 </div>
             </div>
