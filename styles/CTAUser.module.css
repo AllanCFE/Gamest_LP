@@ -1,0 +1,169 @@
+.sectionArea {
+    position: relative;
+    background: #fff;
+    color: #000;
+    width: 100vw;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textTop {
+    width: 60%;
+    min-width: 400px;
+    z-index: 2;
+    margin-top: 150px;
+    color: #00063c;
+}
+
+.titleTop {
+    text-transform: uppercase;
+}
+
+.textHighlight {
+    color: #d32196;
+}
+
+.rightContent {
+    text-transform: uppercase;
+    color: #d32196;
+}
+
+.holder {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 720px;
+    height: 100px;
+    margin: 20px 10px;
+    border: 4px solid #d32196;
+    font-weight: bolder;
+    font-family: MontserratArabic;
+    font-size: 1.5rem;
+    text-align: start;
+    z-index: 2;
+}
+
+.leftContent {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    filter: drop-shadow(5px 5px 0 #00063c);
+}
+
+.leftContent img {
+    filter: invert(37%) sepia(71%) saturate(6730%) hue-rotate(303deg) brightness(84%) contrast(96%);
+}
+
+.rightContent {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.actionButton {
+    position: absolute;
+    bottom: calc(-35px / 2);
+    left: 14%;
+    height: 35px;
+    width: 265px;
+    background-color: #00063c;
+    color: #d32196;
+    font-weight: 900;
+    font-family: MontserratArabic;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.actionText {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.playIcon {
+    position: absolute;
+    top: 7.5px;
+    right: 15px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 16px solid #d32196;
+    border-radius: 3px;
+}
+
+.backImage {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: 0;
+}
+
+.backImage img {
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+    height: 100%;
+}
+
+@media (max-width: 800px) {
+    .textTop {
+        margin-top: 0px;
+        padding-top: 120px;
+    }
+
+    .textTop p {
+        font-size: 0.8rem;
+    }
+
+    .backImage img {
+        object-position: 50% 100%;
+    }
+
+    .holder {
+        width: 90vw;
+        height: 110px;
+        margin: 20px 0;
+        font-size: 1.1rem;
+    }
+
+    .leftContent img {
+        width: 40px;
+        height: 40px;
+        margin: 0px 10px;
+    }
+
+    .rightContent {
+        font-size: 1rem;
+    }
+
+    .actionButton {
+        width: 210px;
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .playIcon {
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 14px solid #d32196;
+        top: auto;
+        right: 10px;
+    }
+}
