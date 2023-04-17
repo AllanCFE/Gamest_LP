@@ -34,7 +34,7 @@ export default function CTA_User () {
                 <span className={styles.rightContent}>
                     {txts.cta_user.holderText}
                 </span>
-                <Link href={'/contact'}>
+                <Link href={'https://forms.gle/sBwpPhYR7mSCosqX7'}>
                     <div className={styles.actionButton}>
                         <span className={styles.actionText}>{txts.cta_user.button}</span>
                         <span className={styles.playIcon}></span>
