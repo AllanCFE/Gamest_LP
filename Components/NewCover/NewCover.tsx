@@ -16,7 +16,7 @@ export default function NewCover () {
             <div className={styles.content}>
                 <div className={styles.titleDiv}>
                     <span className={styles.leftControl}>
-                        <Image alt="Left Control" src={LControl} width={90} height={173} />
+                        <Image alt="Left Control" src={LControl} width={90} height={173} quality={40}/>
                     </span>
                     <span className={styles.titleText}>
                         <h1>{txts[0].cover.title1} <span className={styles.titleHighlight}> {txts[0].cover.titleHighlight}</span> {txts[0].cover.title2}</h1>
@@ -27,12 +27,12 @@ export default function NewCover () {
                         <p>{txts[0].cover.subtitle}</p>
                     </span>
                     <span className={styles.rightControl}>
-                        <Image alt="Right Control" src={RControl} width={90} height={173} />
+                        <Image alt="Right Control" src={RControl} width={90} height={173} quality={40}/>
                     </span>
                 </div>
             </div>
             <div className={styles.backCover}>
-                <Image src={BackCover} alt="Back Cover"/>
+                <Image src={BackCover} alt="Back Cover" quality={100}/>
             </div>
         </div>
     )

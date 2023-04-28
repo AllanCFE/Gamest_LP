@@ -8,6 +8,7 @@ import Partners from '../Components/Partners/Partners'
 import CardsArea from '../Components/CardsArea/CardsArea'
 import CTA_Company from '../Components/CTA_Company/CTA_Company'
 import CTA_User from '../Components/CTA_User/CTA_User'
+import Actuation from '../Components/Actuation/Actuation'
 
 export default function Home() {
   
@@ -31,6 +32,8 @@ export default function Home() {
 
         <CardsArea />
 
+        <Actuation />
+        
         <CTA_User />
 
         <Partners />

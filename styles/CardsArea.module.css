@@ -166,4 +166,12 @@
     .cardText p {
         display: none;
     }
+
+    .backImage {
+        height: 400px;
+    }
+
+    .backImage img {
+        height: 100%;
+    }
 }

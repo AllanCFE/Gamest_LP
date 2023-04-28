@@ -3,19 +3,42 @@
     background: #fff;
     color: #000;
     width: 100vw;
-    height: 550px;
+    height: 500px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 80px;
+}
+
+.stripe {
+    background: repeating-linear-gradient(
+        315deg,
+        transparent 0px,
+        transparent 2px,
+        #000 3px,
+        #000 3px
+    );
+    width: 100vw;
+    z-index: 2;
+}
+
+.stripeTop {
+    height: 10px;
+}
+
+.stripeBottom {
+    height: 40px;
+    position: absolute;
+    top: 500px;
 }
 
 .textTop {
     width: 60%;
-    min-width: 400px;
     z-index: 2;
-    margin-top: 150px;
+    margin-top: 50px;
     color: #fff;
+    max-width: 250px;
 }
 
 .titleTop {
@@ -37,17 +60,17 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    max-width: 1000px;
     height: max-content;
     z-index: 2;
-    background-color: rgba(255, 0, 0, 0.205);
-    border: 4px solid #d32196;
+    margin-top: 25px;
 }
 
 
 .backImage {
     position: absolute;
-    left: 0;
+    top: 10px;
     width: 100vw;
     height: 100%;
     z-index: 0;
@@ -58,6 +81,7 @@
     object-fit: cover;
     z-index: 0;
     height: 100%;
+    object-position: center;
 }
 
 /* Area area*/
@@ -77,8 +101,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 17%;
-    height: 120px;
+    width: 110px;
+    height: 140px;
 }
 
 .areaText {
@@ -90,19 +114,24 @@
 }
 
 .areaImage {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 
 .areaImage img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 
 @media (max-width: 800px) {
+    .sectionArea {
+        margin-top: 110px;
+        height: 600px;
+    }
+
     .textTop {
         margin-top: 0px;
-        padding-top: 120px;
+        padding-top: 30px;
     }
 
     .textTop p {
@@ -115,9 +144,9 @@
 
     .holder {
         width: 90vw;
-        height: 110px;
-        margin: 20px 0;
+        margin: 10px 0;
         font-size: 1.1rem;
+        flex-direction: row;
     }
 
     .leftContent img {
@@ -142,5 +171,21 @@
         border-left: 14px solid #d32196;
         top: auto;
         right: 10px;
+    }
+
+    .areaRow {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .areaSpace {
+        width: 100%;
+        height: 100px;
+        margin: 10px 0;
+    }
+
+
+    .stripeBottom {
+        top: 600px;
     }
 }

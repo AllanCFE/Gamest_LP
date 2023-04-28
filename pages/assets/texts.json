@@ -65,6 +65,22 @@
                 "p": "Se você é designer e adora criar, ou é programador e adora desenvolver, ou prefere atuar gerenciando um time dinâmico e criativo, ou é daqueles que gostam de contar histórias, então cadastre-se no nosso banco de dados. A Gamest vai te ajudar a encontrar uma oportunidade ideal no mercado.",
                 "holderText": "Estou aberto a novas oportunidades na indústria de games",
                 "button": "Quero me cadastrar"
+            },
+            "actuation": {
+                "0" : {
+                    "0" : "Animação",
+                    "1": "Artes",
+                    "2": "Audio",
+                    "3": "Design"
+                },
+                "1" : {
+                    "0": "Marketing",
+                    "1": "Produção",
+                    "2": "Programação",
+                    "3": "QA"
+                },
+                "title1": "Conheça as ",
+                "titleHighlight": "áreas em que atuamos"
             }
         },
         {
@@ -132,6 +148,22 @@
                 "p": "If you are a designer and love to create, or a programmer and love to develop, or prefer to act managing a dynamic and creative team, or are those who like to tell stories, then register in our database. Gamest will help you find an ideal opportunity in the market.",
                 "holderText": "I am open to new opportunities in the gaming industry",
                 "button": "I want to register"
+            },
+            "actuation": {
+                "0" : {
+                    "0" : "Animation",
+                    "1": "Arts",
+                    "2": "Audio",
+                    "3": "Design"
+                },
+                "1" : {
+                    "0": "Marketing",
+                    "1": "Production",
+                    "2": "Programming",
+                    "3": "QA"
+                },
+                "title1": "Know the ",
+                "titleHighlight": "areas we work with"
             }
         }
     ]
