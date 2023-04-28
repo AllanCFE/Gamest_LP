@@ -4,7 +4,7 @@ import styles from '../styles/Test.module.css'
 import Navbar from '../Components/Navbar/Navbar'
 import InovAtiva from '../Components/InovAtiva/InovAtiva';
 import Footer from '../Components/Footer/Footer';
-import Partners from '../Components/Partners/Partners';
+import Actuation from '../Components/Actuation/Actuation';
 
 function Test() {
 
@@ -15,7 +15,7 @@ function Test() {
             <Navbar/>
 
             <div className={styles.marginNavbar}  >
-                < Partners />
+                < Actuation />
             </div>
 
             <br/>
