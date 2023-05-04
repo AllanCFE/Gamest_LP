@@ -31,7 +31,7 @@ export default function Actuation () {
             <div className={styles.textTop}>
                 <span className={styles.titleTop}>
                     <h2>
-                        {txts.actuation["title1"]}<span className={styles.textHighlight}>{txts.actuation["titleHighlight"]}</span>.
+                        {txts.actuation["title1"]}<span className={styles.textHighlight}>{txts.actuation["titleHighlight"]}</span>
                     </h2>
                 </span>
             </div>
