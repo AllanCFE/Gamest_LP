@@ -15,7 +15,6 @@ export default function CardsArea () {
     return (
         <div className={styles.sectionArea}>
             <div className={styles.content}>
-                <div className={`${styles.stripe} ${styles.stripeTop}`}></div>
                 <div className={styles.topText}>
                     <h2>{txts.cardsArea.title1} <span className={styles.highlight}>{txts.cardsArea.titleHighlight}</span> {txts.cardsArea.title2}</h2>
                 </div>
@@ -53,7 +52,6 @@ export default function CardsArea () {
                     </div>
                 </div>
             </div>
-            <div className={`${styles.stripe} ${styles.stripeDown}`}></div>
             <div className={styles.backImage}>
                 <Image src={Banner} alt="Banner" width={1920} height={505} />
             </div>

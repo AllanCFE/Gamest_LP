@@ -27,7 +27,6 @@ export default function Actuation () {
 
     return (
         <div className={[styles.sectionArea].join(" ")}>
-            <div className={`${styles.stripe} ${styles.stripeTop}`}></div>
             <div className={styles.textTop}>
                 <span className={styles.titleTop}>
                     <h2>
@@ -65,7 +64,6 @@ export default function Actuation () {
                     }
                 </div>
             </div>
-            <div className={`${styles.stripe} ${styles.stripeBottom}`}></div>
             <div className={styles.backImage}>
                 <Image src={BannerActuation} alt="Imagem de fundo com pessoas em reunião de negócios" width={1920} height={700} quality={85} />
             </div>

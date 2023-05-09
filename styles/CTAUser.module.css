@@ -124,14 +124,10 @@
 
 @media (max-width: 800px) {
     .textTop {
-        padding-top: 120px;
+        padding-top: 100px;
         min-width: 0px;
         margin-top: 0;
         width: 90vw;
-    }
-
-    .paragraphTop {
-        text-align: justify;
     }
 
     .textTop p {
