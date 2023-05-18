@@ -56,38 +56,22 @@ export default function ContactForm () {
 
     return (
         <div className={[styles.contactArea].join(" ")}>
-            {/** Title */}
-            <div className={styles.cardTitle}>
-                    <h1>{txts[0].contactForm.title}</h1>
 
-                    <div className={styles.footerLeft}>
-                        <div className={styles.smLogos}>
-                            <a href='https://www.instagram.com/gamestoficial/' target="_blank" rel="noreferrer" className={styles.centerH}>
-                                <Image alt="Instagram" src='/Instagram.png' width={100} height={100}/>
-                            </a>
-                        </div>
-                        <div className={styles.smLogos}>
-                            <a href='https://www.linkedin.com/company/gamestoficial/' target="_blank" rel="noreferrer" className={styles.centerH}>
-                                <Image alt="LinkedIn" src='/LinkedIn.png' width={100} height={100}/>
-                            </a>
-                        </div>
-                        <div className={styles.smLogos}>
-                            <a href='mailto:joaovictorcastro@gamest.com.br' target="_blank" rel="noreferrer" className={styles.centerH}>
-                                <Image alt="Mail" src='/Mail.png' width={100} height={100}/>
-                            </a>
-                        </div>
-                        <div className={styles.smLogos}>
-                            <a href='https://api.whatsapp.com/send?phone=556599780487&text=Gostaria%20de%20conversar%20sobre%20o%20servi%C3%A7o%20de%20recrutamento%20da%20Gamest' target="_blank" rel="noreferrer" className={styles.centerH}>
-                                <Image alt="WhatsApp" src='/WhatsApp.png' width={100} height={100}/>
-                            </a>
-                        </div>
-                    </div>
-            </div>
+            <div className={styles.firstLine}>
+                <span>
+                    <h2>
+                        To get started with Gamest, schedule a call today with one of our recruiter specialists.
+                    </h2>
+                </span>
 
-            <div className={styles.centerV}>
-                <div className={styles.verticalBar}>
-                    
-                </div>
+                <span>
+                    <p>Together we can:</p>
+                    <ul>
+                        <li>Discuss your hiring needs;</li>
+                        <li>Determine the best strategy for your organization;</li>
+                        <li>Explore custom pack options that fit your specific requirements.</li>
+                    </ul>
+                </span>
             </div>
 
             <div className={[styles.secondLine].join(" ")}>
